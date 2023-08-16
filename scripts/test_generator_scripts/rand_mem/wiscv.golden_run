@@ -1,0 +1,1716 @@
+insn:     0x000000 ---   _start                            -jal zero, 4100;
+branch:   0x000000 ---   _start                            -to 0x1004
+insn:     0x001004 ---   real_start                        -addi ra, zero, 0x200;  // ra = zero + 0x200
+reg:      0x001004 ---   real_start                        -wrote ra = 0x200
+insn:     0x001008 ---   real_start                        -addi sp, zero, 0x200;  // sp = zero + 0x200
+reg:      0x001008 ---   real_start                        -wrote sp = 0x200
+insn:     0x00100c ---   real_start                        -addi gp, zero, 0x200;  // gp = zero + 0x200
+reg:      0x00100c ---   real_start                        -wrote gp = 0x200
+insn:     0x001010 ---   real_start                        -addi tp, zero, 0x200;  // tp = zero + 0x200
+reg:      0x001010 ---   real_start                        -wrote tp = 0x200
+insn:     0x001014 ---   real_start                        -addi t0, zero, 0x200;  // t0 = zero + 0x200
+reg:      0x001014 ---   real_start                        -wrote t0 = 0x200
+insn:     0x001018 ---   real_start                        -addi t1, zero, 0x200;  // t1 = zero + 0x200
+reg:      0x001018 ---   real_start                        -wrote t1 = 0x200
+insn:     0x00101c ---   real_start                        -addi t2, zero, 0x200;  // t2 = zero + 0x200
+reg:      0x00101c ---   real_start                        -wrote t2 = 0x200
+insn:     0x001020 ---   real_start                        -addi s0, zero, 0x200;  // s0 = zero + 0x200
+reg:      0x001020 ---   real_start                        -wrote s0 = 0x200
+insn:     0x001024 ---   real_start                        -addi s1, zero, 0x200;  // s1 = zero + 0x200
+reg:      0x001024 ---   real_start                        -wrote s1 = 0x200
+insn:     0x001028 ---   real_start                        -addi a0, zero, 0x200;  // a0 = zero + 0x200
+reg:      0x001028 ---   real_start                        -wrote a0 = 0x200
+insn:     0x00102c ---   real_start                        -addi a1, zero, 0x200;  // a1 = zero + 0x200
+reg:      0x00102c ---   real_start                        -wrote a1 = 0x200
+insn:     0x001030 ---   real_start                        -addi a2, zero, 0x200;  // a2 = zero + 0x200
+reg:      0x001030 ---   real_start                        -wrote a2 = 0x200
+insn:     0x001034 ---   real_start                        -addi a3, zero, 0x200;  // a3 = zero + 0x200
+reg:      0x001034 ---   real_start                        -wrote a3 = 0x200
+insn:     0x001038 ---   real_start                        -addi a4, zero, 0x200;  // a4 = zero + 0x200
+reg:      0x001038 ---   real_start                        -wrote a4 = 0x200
+insn:     0x00103c ---   real_start                        -addi a5, zero, 0x200;  // a5 = zero + 0x200
+reg:      0x00103c ---   real_start                        -wrote a5 = 0x200
+insn:     0x001040 ---   real_start                        -addi a6, zero, 0x200;  // a6 = zero + 0x200
+reg:      0x001040 ---   real_start                        -wrote a6 = 0x200
+insn:     0x001044 ---   real_start                        -addi a7, zero, 0x200;  // a7 = zero + 0x200
+reg:      0x001044 ---   real_start                        -wrote a7 = 0x200
+insn:     0x001048 ---   real_start                        -addi s2, zero, 0x200;  // s2 = zero + 0x200
+reg:      0x001048 ---   real_start                        -wrote s2 = 0x200
+insn:     0x00104c ---   real_start                        -addi s3, zero, 0x200;  // s3 = zero + 0x200
+reg:      0x00104c ---   real_start                        -wrote s3 = 0x200
+insn:     0x001050 ---   real_start                        -addi s4, zero, 0x200;  // s4 = zero + 0x200
+reg:      0x001050 ---   real_start                        -wrote s4 = 0x200
+insn:     0x001054 ---   real_start                        -addi s5, zero, 0x200;  // s5 = zero + 0x200
+reg:      0x001054 ---   real_start                        -wrote s5 = 0x200
+insn:     0x001058 ---   real_start                        -addi s6, zero, 0x200;  // s6 = zero + 0x200
+reg:      0x001058 ---   real_start                        -wrote s6 = 0x200
+insn:     0x00105c ---   real_start                        -addi s7, zero, 0x200;  // s7 = zero + 0x200
+reg:      0x00105c ---   real_start                        -wrote s7 = 0x200
+insn:     0x001060 ---   real_start                        -addi s8, zero, 0x200;  // s8 = zero + 0x200
+reg:      0x001060 ---   real_start                        -wrote s8 = 0x200
+insn:     0x001064 ---   real_start                        -addi s9, zero, 0x200;  // s9 = zero + 0x200
+reg:      0x001064 ---   real_start                        -wrote s9 = 0x200
+insn:     0x001068 ---   real_start                        -addi s10, zero, 0x200;  // s10 = zero + 0x200
+reg:      0x001068 ---   real_start                        -wrote s10 = 0x200
+insn:     0x00106c ---   real_start                        -addi s11, zero, 0x200;  // s11 = zero + 0x200
+reg:      0x00106c ---   real_start                        -wrote s11 = 0x200
+insn:     0x001070 ---   real_start                        -addi t3, zero, 0x200;  // t3 = zero + 0x200
+reg:      0x001070 ---   real_start                        -wrote t3 = 0x200
+insn:     0x001074 ---   real_start                        -addi t4, zero, 0x200;  // t4 = zero + 0x200
+reg:      0x001074 ---   real_start                        -wrote t4 = 0x200
+insn:     0x001078 ---   real_start                        -addi t5, zero, 0x200;  // t5 = zero + 0x200
+reg:      0x001078 ---   real_start                        -wrote t5 = 0x200
+insn:     0x00107c ---   real_start                        -addi t6, zero, 0x200;  // t6 = zero + 0x200
+reg:      0x00107c ---   real_start                        -wrote t6 = 0x200
+insn:     0x001080 ---   real_start                        -sw a1, 8(t2);
+insn:     0x001084 ---   real_start                        -lw s3, -16(t1);
+reg:      0x001084 ---   real_start                        -wrote s3 = 0x7b
+insn:     0x001088 ---   real_start                        -lw a7, -20(t1);
+reg:      0x001088 ---   real_start                        -wrote a7 = 0x7a
+insn:     0x00108c ---   real_start                        -sw s1, 16(t1);
+insn:     0x001090 ---   real_start                        -sw s1, 12(t1);
+insn:     0x001094 ---   real_start                        -sw a0, 0(t1);
+insn:     0x001098 ---   real_start                        -sw s0, -16(t2);
+insn:     0x00109c ---   real_start                        -sw s0, 16(t1);
+insn:     0x0010a0 ---   real_start                        -lw s5, -16(t2);
+reg:      0x0010a0 ---   real_start                        -wrote s5 = 0x200
+insn:     0x0010a4 ---   real_start                        -sw a0, -4(t1);
+insn:     0x0010a8 ---   real_start                        -sw t2, -20(t1);
+insn:     0x0010ac ---   real_start                        -lw a4, -28(t1);
+reg:      0x0010ac ---   real_start                        -wrote a4 = 0x78
+insn:     0x0010b0 ---   real_start                        -xori s0, t1, 0;  // s0 = t1 ^ 0
+reg:      0x0010b0 ---   real_start                        -wrote s0 = 0x200
+insn:     0x0010b4 ---   real_start                        -lw t3, -12(t1);
+reg:      0x0010b4 ---   real_start                        -wrote t3 = 0x7c
+insn:     0x0010b8 ---   real_start                        -lw t5, -16(t2);
+reg:      0x0010b8 ---   real_start                        -wrote t5 = 0x200
+insn:     0x0010bc ---   real_start                        -sw s0, 28(t1);
+insn:     0x0010c0 ---   real_start                        -srli a1, t1, 8;  // a1 = t1 >> 0x8
+reg:      0x0010c0 ---   real_start                        -wrote a1 = 0x2
+insn:     0x0010c4 ---   real_start                        -lw t4, -24(t2);
+reg:      0x0010c4 ---   real_start                        -wrote t4 = 0x79
+insn:     0x0010c8 ---   real_start                        -sw s0, -4(t1);
+insn:     0x0010cc ---   real_start                        -lw t0, 24(t1);
+reg:      0x0010cc ---   real_start                        -wrote t0 = 0x85
+insn:     0x0010d0 ---   real_start                        -lw s2, -8(t2);
+reg:      0x0010d0 ---   real_start                        -wrote s2 = 0x7d
+insn:     0x0010d4 ---   real_start                        -sw t2, -32(t1);
+insn:     0x0010d8 ---   real_start                        -lw sp, 28(t1);
+reg:      0x0010d8 ---   real_start                        -wrote sp = 0x200
+insn:     0x0010dc ---   real_start                        -sw t2, -32(t2);
+insn:     0x0010e0 ---   real_start                        -sw s1, 16(t1);
+insn:     0x0010e4 ---   real_start                        -sw s0, 0(t1);
+insn:     0x0010e8 ---   real_start                        -lw gp, -28(t1);
+reg:      0x0010e8 ---   real_start                        -wrote gp = 0x78
+insn:     0x0010ec ---   real_start                        -lw t4, 20(t1);
+reg:      0x0010ec ---   real_start                        -wrote t4 = 0x84
+insn:     0x0010f0 ---   real_start                        -sw a1, -8(t1);
+insn:     0x0010f4 ---   real_start                        -sw a0, 20(t2);
+insn:     0x0010f8 ---   real_start                        -lw s3, 28(t2);
+reg:      0x0010f8 ---   real_start                        -wrote s3 = 0x200
+insn:     0x0010fc ---   real_start                        -sw s1, -16(t1);
+insn:     0x001100 ---   real_start                        -sw s0, 24(t1);
+insn:     0x001104 ---   real_start                        -sw a1, -24(t1);
+insn:     0x001108 ---   real_start                        -sw t2, -12(t1);
+insn:     0x00110c ---   real_start                        -sw t2, -32(t1);
+insn:     0x001110 ---   real_start                        -lw s1, 28(t1);
+reg:      0x001110 ---   real_start                        -wrote s1 = 0x200
+insn:     0x001114 ---   real_start                        -sw s0, 16(t2);
+insn:     0x001118 ---   real_start                        -lw a2, -16(t1);
+reg:      0x001118 ---   real_start                        -wrote a2 = 0x200
+insn:     0x00111c ---   real_start                        -lw s2, -28(t2);
+reg:      0x00111c ---   real_start                        -wrote s2 = 0x78
+insn:     0x001120 ---   real_start                        -sw a0, 16(t1);
+insn:     0x001124 ---   real_start                        -sw s1, 16(t1);
+insn:     0x001128 ---   real_start                        -addi t2, t2, 0x10;  // t2 = t2 + 0x10
+reg:      0x001128 ---   real_start                        -wrote t2 = 0x210
+insn:     0x00112c ---   real_start                        -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x00112c ---   real_start                        -wrote t2 = 0x210
+insn:     0x001130 ---   real_start                        -sw t2, -32(t2);
+insn:     0x001134 ---   real_start                        -lw s1, -24(t1);
+reg:      0x001134 ---   real_start                        -wrote s1 = 0x2
+insn:     0x001138 ---   real_start                        -sw a1, 0(t2);
+insn:     0x00113c ---   real_start                        -lw s9, 16(t1);
+reg:      0x00113c ---   real_start                        -wrote s9 = 0x2
+insn:     0x001140 ---   real_start                        -sw a0, -20(t1);
+insn:     0x001144 ---   real_start                        -lw s3, 4(t2);
+reg:      0x001144 ---   real_start                        -wrote s3 = 0x200
+insn:     0x001148 ---   real_start                        -sw t2, -24(t2);
+insn:     0x00114c ---   real_start                        -lw a4, 12(t2);
+reg:      0x00114c ---   real_start                        -wrote a4 = 0x200
+insn:     0x001150 ---   real_start                        -sw s0, 0(t2);
+insn:     0x001154 ---   real_start                        -lw s10, -4(t2);
+reg:      0x001154 ---   real_start                        -wrote s10 = 0x200
+insn:     0x001158 ---   real_start                        -lw gp, 8(t2);
+reg:      0x001158 ---   real_start                        -wrote gp = 0x200
+insn:     0x00115c ---   real_start                        -lw s0, 28(t1);
+reg:      0x00115c ---   real_start                        -wrote s0 = 0x200
+insn:     0x001160 ---   real_start                        -lw a7, -12(t1);
+reg:      0x001160 ---   real_start                        -wrote a7 = 0x200
+insn:     0x001164 ---   real_start                        -lw a4, 12(t1);
+reg:      0x001164 ---   real_start                        -wrote a4 = 0x200
+insn:     0x001168 ---   real_start                        -sw t2, -12(t1);
+insn:     0x00116c ---   real_start                        -sw t2, 4(t1);
+insn:     0x001170 ---   real_start                        -sw t2, -28(t1);
+insn:     0x001174 ---   real_start                        -lw tp, -24(t2);
+reg:      0x001174 ---   real_start                        -wrote tp = 0x210
+insn:     0x001178 ---   real_start                        -sw s1, 16(t1);
+insn:     0x00117c ---   real_start                        -sw s1, 28(t2);
+insn:     0x001180 ---   real_start                        -lw s6, -20(t2);
+reg:      0x001180 ---   real_start                        -wrote s6 = 0x200
+insn:     0x001184 ---   real_start                        -lw s1, 12(t1);
+reg:      0x001184 ---   real_start                        -wrote s1 = 0x200
+insn:     0x001188 ---   real_start                        -lw s8, -8(t2);
+reg:      0x001188 ---   real_start                        -wrote s8 = 0x200
+insn:     0x00118c ---   real_start                        -lw sp, 16(t1);
+reg:      0x00118c ---   real_start                        -wrote sp = 0x2
+insn:     0x001190 ---   real_start                        -sw a1, -16(t1);
+insn:     0x001194 ---   real_start                        -lw sp, 16(t2);
+reg:      0x001194 ---   real_start                        -wrote sp = 0x87
+insn:     0x001198 ---   real_start                        -lw t5, -12(t1);
+reg:      0x001198 ---   real_start                        -wrote t5 = 0x210
+insn:     0x00119c ---   real_start                        -lw s10, 16(t2);
+reg:      0x00119c ---   real_start                        -wrote s10 = 0x87
+insn:     0x0011a0 ---   real_start                        -lw ra, -12(t2);
+reg:      0x0011a0 ---   real_start                        -wrote ra = 0x210
+insn:     0x0011a4 ---   real_start                        -sw a0, -20(t1);
+insn:     0x0011a8 ---   real_start                        -lw s8, -8(t1);
+reg:      0x0011a8 ---   real_start                        -wrote s8 = 0x210
+insn:     0x0011ac ---   real_start                        -sw a0, 16(t2);
+insn:     0x0011b0 ---   real_start                        -lw s9, 24(t2);
+reg:      0x0011b0 ---   real_start                        -wrote s9 = 0x89
+insn:     0x0011b4 ---   real_start                        -sw s0, 28(t2);
+insn:     0x0011b8 ---   real_start                        -lw t5, -20(t1);
+reg:      0x0011b8 ---   real_start                        -wrote t5 = 0x200
+insn:     0x0011bc ---   real_start                        -sw t2, -8(t1);
+insn:     0x0011c0 ---   real_start                        -lw t3, 16(t1);
+reg:      0x0011c0 ---   real_start                        -wrote t3 = 0x2
+insn:     0x0011c4 ---   real_start                        -lw s2, -28(t1);
+reg:      0x0011c4 ---   real_start                        -wrote s2 = 0x210
+insn:     0x0011c8 ---   real_start                        -sw a1, -24(t2);
+insn:     0x0011cc ---   real_start                        -lw t4, -16(t2);
+reg:      0x0011cc ---   real_start                        -wrote t4 = 0x200
+insn:     0x0011d0 ---   real_start                        -lw a0, 20(t2);
+reg:      0x0011d0 ---   real_start                        -wrote a0 = 0x88
+insn:     0x0011d4 ---   real_start                        -sw a1, -20(t2);
+insn:     0x0011d8 ---   real_start                        -lw t5, 12(t1);
+reg:      0x0011d8 ---   real_start                        -wrote t5 = 0x200
+insn:     0x0011dc ---   real_start                        -lw s0, -24(t1);
+reg:      0x0011dc ---   real_start                        -wrote s0 = 0x2
+insn:     0x0011e0 ---   real_start                        -sw a1, 16(t2);
+insn:     0x0011e4 ---   real_start                        -lw a4, -4(t2);
+reg:      0x0011e4 ---   real_start                        -wrote a4 = 0x200
+insn:     0x0011e8 ---   real_start                        -slli s2, s6, 14;  // s2 = s6 << 0xe
+reg:      0x0011e8 ---   real_start                        -wrote s2 = 0x800000
+insn:     0x0011ec ---   real_start                        -sw a1, 20(t2);
+insn:     0x0011f0 ---   real_start                        -sw s0, -32(t2);
+insn:     0x0011f4 ---   real_start                        -lw tp, -4(t2);
+reg:      0x0011f4 ---   real_start                        -wrote tp = 0x200
+insn:     0x0011f8 ---   real_start                        -beq a3, s11, 0x14;  // if (a3 == s11) goto 0x14
+branch:   0x0011f8 ---   real_start                        -to 0x120c
+insn:     0x00120c ---   label_0_595                       -sw a0, 0(t1);
+insn:     0x001210 ---   label_0_595                       -sw t2, -32(t2);
+insn:     0x001214 ---   label_0_595                       -lw tp, -20(t2);
+reg:      0x001214 ---   label_0_595                       -wrote tp = 0x2
+insn:     0x001218 ---   label_0_595                       -sw s0, -16(t2);
+insn:     0x00121c ---   label_0_595                       -lw a5, -32(t2);
+reg:      0x00121c ---   label_0_595                       -wrote a5 = 0x210
+insn:     0x001220 ---   label_0_595                       -sw t2, 24(t1);
+insn:     0x001224 ---   label_0_595                       -lw s7, 28(t2);
+reg:      0x001224 ---   label_0_595                       -wrote s7 = 0x200
+insn:     0x001228 ---   label_0_595                       -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x00122c ---   label_0_595                       -bgeu a4, s2, 0x18;  // if (a4 >= s2) goto 0x18
+insn:     0x001230 ---   label_0_595                       -sub a2, s10, s5;  // a2 = s10 - s5
+reg:      0x001230 ---   label_0_595                       -wrote a2 = 0xfffffe87
+insn:     0x001234 ---   label_0_595                       -or s9, a0, a0;  // s9 = a0 | a0
+reg:      0x001234 ---   label_0_595                       -wrote s9 = 0x88
+insn:     0x001238 ---   label_0_595                       -slti tp, a1, 0;  // tp = a1 < 0
+reg:      0x001238 ---   label_0_595                       -wrote tp = 0
+insn:     0x00123c ---   label_0_595                       -slti s7, sp, 0x3;  // s7 = sp < 0x3
+reg:      0x00123c ---   label_0_595                       -wrote s7 = 0
+insn:     0x001240 ---   label_0_595                       -srai sp, tp, 1;  // sp = tp >>> 0x1
+reg:      0x001240 ---   label_0_595                       -wrote sp = 0
+insn:     0x001244 ---   label_1_95                        -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x001248 ---   label_1_95                        -bge t6, tp, 0xc;  // if (t6 >= tp) goto 0xc
+branch:   0x001248 ---   label_1_95                        -to 0x1254
+insn:     0x001254 ---   label_2_197                       -sw s0, -32(t2);
+insn:     0x001258 ---   label_2_197                       -lw a5, -24(t2);
+reg:      0x001258 ---   label_2_197                       -wrote a5 = 0x2
+insn:     0x00125c ---   label_2_197                       -lw gp, 8(t2);
+reg:      0x00125c ---   label_2_197                       -wrote gp = 0x210
+insn:     0x001260 ---   label_2_197                       -sw s1, 0(t1);
+insn:     0x001264 ---   label_2_197                       -sw s1, 20(t2);
+insn:     0x001268 ---   label_2_197                       -sw a0, -12(t2);
+insn:     0x00126c ---   label_2_197                       -lw a2, 28(t2);
+reg:      0x00126c ---   label_2_197                       -wrote a2 = 0x200
+insn:     0x001270 ---   label_2_197                       -lw a6, -8(t1);
+reg:      0x001270 ---   label_2_197                       -wrote a6 = 0x2
+insn:     0x001274 ---   label_2_197                       -lw a1, 16(t2);
+reg:      0x001274 ---   label_2_197                       -wrote a1 = 0x2
+insn:     0x001278 ---   label_2_197                       -lw t0, 20(t2);
+reg:      0x001278 ---   label_2_197                       -wrote t0 = 0x200
+insn:     0x00127c ---   label_2_197                       -lw t4, -32(t2);
+reg:      0x00127c ---   label_2_197                       -wrote t4 = 0x2
+insn:     0x001280 ---   label_2_197                       -sw a0, 12(t1);
+insn:     0x001284 ---   label_2_197                       -lw a4, -32(t1);
+reg:      0x001284 ---   label_2_197                       -wrote a4 = 0x200
+insn:     0x001288 ---   label_2_197                       -sw s0, 8(t1);
+insn:     0x00128c ---   label_2_197                       -lw a3, 8(t2);
+reg:      0x00128c ---   label_2_197                       -wrote a3 = 0x210
+insn:     0x001290 ---   label_2_197                       -sw t2, 28(t1);
+insn:     0x001294 ---   label_2_197                       -lw s5, -16(t2);
+reg:      0x001294 ---   label_2_197                       -wrote s5 = 0x200
+insn:     0x001298 ---   label_2_197                       -lw ra, 16(t2);
+reg:      0x001298 ---   label_2_197                       -wrote ra = 0x2
+insn:     0x00129c ---   label_2_197                       -sw t2, -12(t2);
+insn:     0x0012a0 ---   label_2_197                       -sw t2, 16(t1);
+insn:     0x0012a4 ---   label_2_197                       -lw s0, 28(t1);
+reg:      0x0012a4 ---   label_2_197                       -wrote s0 = 0x210
+insn:     0x0012a8 ---   label_2_197                       -lw a7, -28(t2);
+reg:      0x0012a8 ---   label_2_197                       -wrote a7 = 0x210
+insn:     0x0012ac ---   label_2_197                       -lw s4, 4(t1);
+reg:      0x0012ac ---   label_2_197                       -wrote s4 = 0x210
+insn:     0x0012b0 ---   label_2_197                       -sw s1, 12(t2);
+insn:     0x0012b4 ---   label_2_197                       -lw s5, 0(t1);
+reg:      0x0012b4 ---   label_2_197                       -wrote s5 = 0x200
+insn:     0x0012b8 ---   label_2_197                       -sw s0, -20(t2);
+insn:     0x0012bc ---   label_2_197                       -sw a0, -24(t2);
+insn:     0x0012c0 ---   label_2_197                       -lw s5, -12(t1);
+reg:      0x0012c0 ---   label_2_197                       -wrote s5 = 0x210
+insn:     0x0012c4 ---   label_2_197                       -sw a1, -12(t2);
+insn:     0x0012c8 ---   label_2_197                       -sw a1, 20(t1);
+insn:     0x0012cc ---   label_2_197                       -sw s0, 12(t1);
+insn:     0x0012d0 ---   label_2_197                       -sw s0, 24(t2);
+insn:     0x0012d4 ---   label_2_197                       -lw s3, -8(t2);
+reg:      0x0012d4 ---   label_2_197                       -wrote s3 = 0x2
+insn:     0x0012d8 ---   label_2_197                       -sw s1, 0(t2);
+insn:     0x0012dc ---   label_2_197                       -sw s0, 12(t1);
+insn:     0x0012e0 ---   label_2_197                       -lw s11, -28(t2);
+reg:      0x0012e0 ---   label_2_197                       -wrote s11 = 0x210
+insn:     0x0012e4 ---   label_2_197                       -sw s0, -16(t1);
+insn:     0x0012e8 ---   label_2_197                       -lw tp, 28(t1);
+reg:      0x0012e8 ---   label_2_197                       -wrote tp = 0x200
+insn:     0x0012ec ---   label_2_197                       -lw a7, -32(t1);
+reg:      0x0012ec ---   label_2_197                       -wrote a7 = 0x200
+insn:     0x0012f0 ---   label_2_197                       -sw t2, -28(t2);
+insn:     0x0012f4 ---   label_2_197                       -lw s11, -24(t1);
+reg:      0x0012f4 ---   label_2_197                       -wrote s11 = 0x2
+insn:     0x0012f8 ---   label_2_197                       -lw tp, -24(t2);
+reg:      0x0012f8 ---   label_2_197                       -wrote tp = 0x88
+insn:     0x0012fc ---   label_2_197                       -sw a0, -20(t2);
+insn:     0x001300 ---   label_2_197                       -sw t2, -8(t2);
+insn:     0x001304 ---   label_2_197                       -lw s1, 4(t1);
+reg:      0x001304 ---   label_2_197                       -wrote s1 = 0x2
+insn:     0x001308 ---   label_2_197                       -sw t2, -12(t1);
+insn:     0x00130c ---   label_2_197                       -lw a7, 0(t1);
+reg:      0x00130c ---   label_2_197                       -wrote a7 = 0x200
+insn:     0x001310 ---   label_2_197                       -sw t2, -20(t1);
+insn:     0x001314 ---   label_2_197                       -lw a1, 20(t2);
+reg:      0x001314 ---   label_2_197                       -wrote a1 = 0x200
+insn:     0x001318 ---   label_2_197                       -lw a5, -32(t2);
+reg:      0x001318 ---   label_2_197                       -wrote a5 = 0x210
+insn:     0x00131c ---   label_2_197                       -sw s1, -4(t2);
+insn:     0x001320 ---   label_2_197                       -lw s8, -20(t2);
+reg:      0x001320 ---   label_2_197                       -wrote s8 = 0x88
+insn:     0x001324 ---   label_2_197                       -sw s0, 4(t2);
+insn:     0x001328 ---   label_2_197                       -sw s0, -8(t2);
+insn:     0x00132c ---   label_2_197                       -srai a0, s3, 2;  // a0 = s3 >>> 0x2
+reg:      0x00132c ---   label_2_197                       -wrote a0 = 0
+insn:     0x001330 ---   label_2_197                       -lw s0, 20(t2);
+reg:      0x001330 ---   label_2_197                       -wrote s0 = 0x200
+insn:     0x001334 ---   label_2_197                       -sw a1, 4(t2);
+insn:     0x001338 ---   label_2_197                       -lw s11, -12(t2);
+reg:      0x001338 ---   label_2_197                       -wrote s11 = 0x2
+insn:     0x00133c ---   label_2_197                       -sw t2, 24(t2);
+insn:     0x001340 ---   label_2_197                       -sw a1, 8(t1);
+insn:     0x001344 ---   label_2_197                       -lw s11, -8(t1);
+reg:      0x001344 ---   label_2_197                       -wrote s11 = 0x88
+insn:     0x001348 ---   label_2_197                       -sw s0, 12(t1);
+insn:     0x00134c ---   label_2_197                       -sw a0, 24(t2);
+insn:     0x001350 ---   label_2_197                       -sw a0, -24(t2);
+insn:     0x001354 ---   label_2_197                       -sw a0, 24(t1);
+insn:     0x001358 ---   label_2_197                       -sw s0, 24(t1);
+insn:     0x00135c ---   label_2_197                       -lw s6, -28(t2);
+reg:      0x00135c ---   label_2_197                       -wrote s6 = 0x210
+insn:     0x001360 ---   label_2_197                       -lw a0, 24(t1);
+reg:      0x001360 ---   label_2_197                       -wrote a0 = 0x200
+insn:     0x001364 ---   label_2_197                       -lw t6, -16(t2);
+reg:      0x001364 ---   label_2_197                       -wrote t6 = 0x200
+insn:     0x001368 ---   label_2_197                       -sw a0, -28(t1);
+insn:     0x00136c ---   label_2_197                       -sw a0, -4(t2);
+insn:     0x001370 ---   label_2_197                       -sw s1, -12(t2);
+insn:     0x001374 ---   label_2_197                       -lw s0, -20(t1);
+reg:      0x001374 ---   label_2_197                       -wrote s0 = 0x210
+insn:     0x001378 ---   label_2_197                       -sw t2, -20(t1);
+insn:     0x00137c ---   label_2_197                       -lw s11, 0(t1);
+reg:      0x00137c ---   label_2_197                       -wrote s11 = 0x200
+insn:     0x001380 ---   label_2_197                       -lw gp, 20(t1);
+reg:      0x001380 ---   label_2_197                       -wrote gp = 0x200
+insn:     0x001384 ---   label_2_197                       -sw t2, -20(t1);
+insn:     0x001388 ---   label_2_197                       -lw sp, 12(t1);
+reg:      0x001388 ---   label_2_197                       -wrote sp = 0x200
+insn:     0x00138c ---   label_2_197                       -lw s1, -12(t1);
+reg:      0x00138c ---   label_2_197                       -wrote s1 = 0x210
+insn:     0x001390 ---   label_2_197                       -sw s0, -8(t1);
+insn:     0x001394 ---   label_2_197                       -lw a7, 4(t1);
+reg:      0x001394 ---   label_2_197                       -wrote a7 = 0x2
+insn:     0x001398 ---   label_2_197                       -sw t2, 12(t1);
+insn:     0x00139c ---   label_2_197                       -sw s0, -24(t1);
+insn:     0x0013a0 ---   label_2_197                       -lw t0, 8(t2);
+reg:      0x0013a0 ---   label_2_197                       -wrote t0 = 0x200
+insn:     0x0013a4 ---   label_2_197                       -sw t2, -8(t1);
+insn:     0x0013a8 ---   label_2_197                       -sw a1, 0(t2);
+insn:     0x0013ac ---   label_2_197                       -sw s0, -32(t1);
+insn:     0x0013b0 ---   label_2_197                       -sw a1, 16(t1);
+insn:     0x0013b4 ---   label_2_197                       -sw a1, -16(t1);
+insn:     0x0013b8 ---   label_2_197                       -lw s7, -12(t1);
+reg:      0x0013b8 ---   label_2_197                       -wrote s7 = 0x210
+insn:     0x0013bc ---   label_2_197                       -sw s1, 4(t1);
+insn:     0x0013c0 ---   label_2_197                       -sw t2, -8(t1);
+insn:     0x0013c4 ---   label_2_197                       -lw a6, -16(t1);
+reg:      0x0013c4 ---   label_2_197                       -wrote a6 = 0x200
+insn:     0x0013c8 ---   label_2_197                       -sw a1, -4(t1);
+insn:     0x0013cc ---   label_2_197                       -lw a3, 8(t1);
+reg:      0x0013cc ---   label_2_197                       -wrote a3 = 0x200
+insn:     0x0013d0 ---   label_2_197                       -lw sp, 28(t1);
+reg:      0x0013d0 ---   label_2_197                       -wrote sp = 0x200
+insn:     0x0013d4 ---   label_2_197                       -lw s3, -16(t2);
+reg:      0x0013d4 ---   label_2_197                       -wrote s3 = 0x200
+insn:     0x0013d8 ---   label_2_197                       -lw t6, 24(t2);
+reg:      0x0013d8 ---   label_2_197                       -wrote t6 = 0
+insn:     0x0013dc ---   label_2_197                       -lw a4, -12(t2);
+reg:      0x0013dc ---   label_2_197                       -wrote a4 = 0x210
+insn:     0x0013e0 ---   label_2_197                       -sw t2, -32(t2);
+insn:     0x0013e4 ---   label_2_197                       -lw t6, -4(t2);
+reg:      0x0013e4 ---   label_2_197                       -wrote t6 = 0x210
+insn:     0x0013e8 ---   label_2_197                       -sw t2, 0(t1);
+insn:     0x0013ec ---   label_2_197                       -sw s0, -8(t1);
+insn:     0x0013f0 ---   label_2_197                       -sw s0, 4(t1);
+insn:     0x0013f4 ---   label_2_197                       -lw zero, -4(t2);
+insn:     0x0013f8 ---   label_2_197                       -lw a5, -4(t2);
+reg:      0x0013f8 ---   label_2_197                       -wrote a5 = 0x210
+insn:     0x0013fc ---   label_2_197                       -sw s0, 4(t1);
+insn:     0x001400 ---   label_2_197                       -sw a1, -32(t2);
+insn:     0x001404 ---   label_2_197                       -lw t0, 0(t2);
+reg:      0x001404 ---   label_2_197                       -wrote t0 = 0x200
+insn:     0x001408 ---   label_2_197                       -lw gp, 12(t1);
+reg:      0x001408 ---   label_2_197                       -wrote gp = 0x210
+insn:     0x00140c ---   label_2_197                       -sw t2, 12(t1);
+insn:     0x001410 ---   label_2_197                       -lw ra, -4(t1);
+reg:      0x001410 ---   label_2_197                       -wrote ra = 0x200
+insn:     0x001414 ---   label_2_197                       -sw a1, 16(t1);
+insn:     0x001418 ---   label_2_197                       -sw s0, -32(t2);
+insn:     0x00141c ---   label_2_197                       -srl tp, t4, t3;  // tp = t4 >> t3
+reg:      0x00141c ---   label_2_197                       -wrote tp = 0
+insn:     0x001420 ---   label_2_197                       -sw s1, -28(t1);
+insn:     0x001424 ---   label_2_197                       -lw s5, 20(t2);
+reg:      0x001424 ---   label_2_197                       -wrote s5 = 0x200
+insn:     0x001428 ---   label_2_197                       -lw t3, -4(t1);
+reg:      0x001428 ---   label_2_197                       -wrote t3 = 0x200
+insn:     0x00142c ---   label_2_197                       -lw t4, 0(t2);
+reg:      0x00142c ---   label_2_197                       -wrote t4 = 0x200
+insn:     0x001430 ---   label_2_197                       -lw s7, -32(t1);
+reg:      0x001430 ---   label_2_197                       -wrote s7 = 0x210
+insn:     0x001434 ---   label_2_197                       -lw s4, 12(t1);
+reg:      0x001434 ---   label_2_197                       -wrote s4 = 0x210
+insn:     0x001438 ---   label_2_197                       -sw a1, -8(t1);
+insn:     0x00143c ---   label_2_197                       -sw a0, 12(t1);
+insn:     0x001440 ---   label_2_197                       -lw a6, 28(t1);
+reg:      0x001440 ---   label_2_197                       -wrote a6 = 0x200
+insn:     0x001444 ---   label_2_197                       -lw zero, -32(t1);
+insn:     0x001448 ---   label_2_197                       -lw t6, 24(t1);
+reg:      0x001448 ---   label_2_197                       -wrote t6 = 0x200
+insn:     0x00144c ---   label_2_197                       -lw s6, 4(t2);
+reg:      0x00144c ---   label_2_197                       -wrote s6 = 0x200
+insn:     0x001450 ---   label_2_197                       -sw a0, 12(t2);
+insn:     0x001454 ---   label_2_197                       -lw s11, -24(t2);
+reg:      0x001454 ---   label_2_197                       -wrote s11 = 0x200
+insn:     0x001458 ---   label_2_197                       -sw t2, -4(t2);
+insn:     0x00145c ---   label_2_197                       -lw gp, 8(t2);
+reg:      0x00145c ---   label_2_197                       -wrote gp = 0x200
+insn:     0x001460 ---   label_2_197                       -lw a5, -12(t2);
+reg:      0x001460 ---   label_2_197                       -wrote a5 = 0x210
+insn:     0x001464 ---   label_2_197                       -lw t5, -24(t1);
+reg:      0x001464 ---   label_2_197                       -wrote t5 = 0x210
+insn:     0x001468 ---   label_2_197                       -sw a0, -32(t1);
+insn:     0x00146c ---   label_2_197                       -sw a1, -28(t2);
+insn:     0x001470 ---   label_2_197                       -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x001474 ---   label_2_197                       -bgeu s6, t6, 0xc;  // if (s6 >= t6) goto 0xc
+branch:   0x001474 ---   label_2_197                       -to 0x1480
+insn:     0x001480 ---   label_3_306                       -lw a3, -28(t2);
+reg:      0x001480 ---   label_3_306                       -wrote a3 = 0x200
+insn:     0x001484 ---   label_3_306                       -sltiu s7, s1, 0x1;  // s7 = s1 < 0x1
+reg:      0x001484 ---   label_3_306                       -wrote s7 = 0
+insn:     0x001488 ---   label_3_306                       -sw s1, -12(t1);
+insn:     0x00148c ---   label_3_306                       -sw a0, -32(t2);
+insn:     0x001490 ---   label_3_306                       -lw t6, 20(t1);
+reg:      0x001490 ---   label_3_306                       -wrote t6 = 0x200
+insn:     0x001494 ---   label_3_306                       -sw s1, -8(t2);
+insn:     0x001498 ---   label_3_306                       -sw a1, 8(t2);
+insn:     0x00149c ---   label_3_306                       -lw a1, -16(t2);
+reg:      0x00149c ---   label_3_306                       -wrote a1 = 0x210
+insn:     0x0014a0 ---   label_3_306                       -sw t2, 16(t1);
+insn:     0x0014a4 ---   label_3_306                       -sw a0, -8(t1);
+insn:     0x0014a8 ---   label_3_306                       -sw a0, 12(t2);
+insn:     0x0014ac ---   label_3_306                       -sw a0, -24(t1);
+insn:     0x0014b0 ---   label_3_306                       -sw s0, -12(t1);
+insn:     0x0014b4 ---   label_3_306                       -sw a1, -32(t2);
+insn:     0x0014b8 ---   label_3_306                       -lw t4, 16(t2);
+reg:      0x0014b8 ---   label_3_306                       -wrote t4 = 0x2
+insn:     0x0014bc ---   label_3_306                       -sw a1, -28(t2);
+insn:     0x0014c0 ---   label_3_306                       -lw s7, -16(t1);
+reg:      0x0014c0 ---   label_3_306                       -wrote s7 = 0x210
+insn:     0x0014c4 ---   label_3_306                       -lw t5, 24(t2);
+reg:      0x0014c4 ---   label_3_306                       -wrote t5 = 0
+insn:     0x0014c8 ---   label_3_306                       -sw a1, -12(t2);
+insn:     0x0014cc ---   label_3_306                       -sw t2, -24(t1);
+insn:     0x0014d0 ---   label_3_306                       -sw t2, 0(t2);
+insn:     0x0014d4 ---   label_3_306                       -sw a1, -12(t1);
+insn:     0x0014d8 ---   label_3_306                       -lw t5, 20(t2);
+reg:      0x0014d8 ---   label_3_306                       -wrote t5 = 0x200
+insn:     0x0014dc ---   label_3_306                       -sw s0, -4(t1);
+insn:     0x0014e0 ---   label_3_306                       -lw t5, 24(t2);
+reg:      0x0014e0 ---   label_3_306                       -wrote t5 = 0
+insn:     0x0014e4 ---   label_3_306                       -sw s0, 8(t2);
+insn:     0x0014e8 ---   label_3_306                       -sw a1, -32(t2);
+insn:     0x0014ec ---   label_3_306                       -sw s0, -28(t1);
+insn:     0x0014f0 ---   label_3_306                       -sw s0, -20(t1);
+insn:     0x0014f4 ---   label_3_306                       -sw s0, -8(t1);
+insn:     0x0014f8 ---   label_3_306                       -sw s1, 28(t2);
+insn:     0x0014fc ---   label_3_306                       -sw a0, -4(t1);
+insn:     0x001500 ---   label_3_306                       -lw a0, -12(t1);
+reg:      0x001500 ---   label_3_306                       -wrote a0 = 0x210
+insn:     0x001504 ---   label_3_306                       -sw t2, -24(t1);
+insn:     0x001508 ---   label_3_306                       -sw t2, 4(t2);
+insn:     0x00150c ---   label_3_306                       -sw a0, 20(t1);
+insn:     0x001510 ---   label_3_306                       -sw s1, -12(t1);
+insn:     0x001514 ---   label_3_306                       -lw a6, 8(t2);
+reg:      0x001514 ---   label_3_306                       -wrote a6 = 0x210
+insn:     0x001518 ---   label_3_306                       -lw s11, 0(t1);
+reg:      0x001518 ---   label_3_306                       -wrote s11 = 0x210
+insn:     0x00151c ---   label_3_306                       -sw s0, -4(t2);
+insn:     0x001520 ---   label_3_306                       -sw t2, -20(t1);
+insn:     0x001524 ---   label_3_306                       -sw a1, 4(t1);
+insn:     0x001528 ---   label_3_306                       -sw t2, 20(t1);
+insn:     0x00152c ---   label_3_306                       -lw a3, 4(t1);
+reg:      0x00152c ---   label_3_306                       -wrote a3 = 0x210
+insn:     0x001530 ---   label_3_306                       -sw s0, 4(t2);
+insn:     0x001534 ---   label_3_306                       -lw a2, 16(t2);
+reg:      0x001534 ---   label_3_306                       -wrote a2 = 0x2
+insn:     0x001538 ---   label_3_306                       -lw s3, 4(t1);
+reg:      0x001538 ---   label_3_306                       -wrote s3 = 0x210
+insn:     0x00153c ---   label_3_306                       -lw s7, -28(t2);
+reg:      0x00153c ---   label_3_306                       -wrote s7 = 0x210
+insn:     0x001540 ---   label_3_306                       -lw s1, -8(t1);
+reg:      0x001540 ---   label_3_306                       -wrote s1 = 0x210
+insn:     0x001544 ---   label_3_306                       -sw t2, -24(t2);
+insn:     0x001548 ---   label_3_306                       -sw t2, -12(t2);
+insn:     0x00154c ---   label_3_306                       -sw s1, -12(t2);
+insn:     0x001550 ---   label_3_306                       -sw a1, -16(t1);
+insn:     0x001554 ---   label_3_306                       -lw t6, -8(t1);
+reg:      0x001554 ---   label_3_306                       -wrote t6 = 0x210
+insn:     0x001558 ---   label_3_306                       -sw a0, 24(t1);
+insn:     0x00155c ---   label_3_306                       -sw t2, 8(t2);
+insn:     0x001560 ---   label_3_306                       -lw s0, 28(t2);
+reg:      0x001560 ---   label_3_306                       -wrote s0 = 0x210
+insn:     0x001564 ---   label_3_306                       -sw a1, -28(t1);
+insn:     0x001568 ---   label_3_306                       -addi t2, t2, 0x8;  // t2 = t2 + 0x8
+reg:      0x001568 ---   label_3_306                       -wrote t2 = 0x218
+insn:     0x00156c ---   label_3_306                       -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x00156c ---   label_3_306                       -wrote t2 = 0x210
+insn:     0x001570 ---   label_3_306                       -lw s2, -20(t1);
+reg:      0x001570 ---   label_3_306                       -wrote s2 = 0x210
+insn:     0x001574 ---   label_3_306                       -lw a4, -8(t1);
+reg:      0x001574 ---   label_3_306                       -wrote a4 = 0x210
+insn:     0x001578 ---   label_3_306                       -sw s1, 4(t1);
+insn:     0x00157c ---   label_3_306                       -lw t6, 12(t2);
+reg:      0x00157c ---   label_3_306                       -wrote t6 = 0x200
+insn:     0x001580 ---   label_3_306                       -lw tp, 0(t1);
+reg:      0x001580 ---   label_3_306                       -wrote tp = 0x210
+insn:     0x001584 ---   label_3_306                       -lw a0, -24(t2);
+reg:      0x001584 ---   label_3_306                       -wrote a0 = 0x210
+insn:     0x001588 ---   label_3_306                       -sw s1, -4(t1);
+insn:     0x00158c ---   label_3_306                       -lw t6, 16(t2);
+reg:      0x00158c ---   label_3_306                       -wrote t6 = 0x2
+insn:     0x001590 ---   label_3_306                       -lw t4, -16(t2);
+reg:      0x001590 ---   label_3_306                       -wrote t4 = 0x210
+insn:     0x001594 ---   label_3_306                       -sw a0, -24(t1);
+insn:     0x001598 ---   label_3_306                       -lw a5, 24(t2);
+reg:      0x001598 ---   label_3_306                       -wrote a5 = 0
+insn:     0x00159c ---   label_3_306                       -sw s1, -24(t1);
+insn:     0x0015a0 ---   label_3_306                       -lw t5, -28(t1);
+reg:      0x0015a0 ---   label_3_306                       -wrote t5 = 0x210
+insn:     0x0015a4 ---   label_3_306                       -lw zero, 20(t1);
+insn:     0x0015a8 ---   label_3_306                       -sw a1, 12(t1);
+insn:     0x0015ac ---   label_3_306                       -lw s7, -4(t1);
+reg:      0x0015ac ---   label_3_306                       -wrote s7 = 0x210
+insn:     0x0015b0 ---   label_3_306                       -sw a0, 4(t2);
+insn:     0x0015b4 ---   label_3_306                       -slti t5, a4, 0x7;  // t5 = a4 < 0x7
+reg:      0x0015b4 ---   label_3_306                       -wrote t5 = 0
+insn:     0x0015b8 ---   label_3_306                       -lw s3, -16(t2);
+reg:      0x0015b8 ---   label_3_306                       -wrote s3 = 0x210
+insn:     0x0015bc ---   label_3_306                       -lw t6, -32(t2);
+reg:      0x0015bc ---   label_3_306                       -wrote t6 = 0x210
+insn:     0x0015c0 ---   label_3_306                       -sw a1, 20(t2);
+insn:     0x0015c4 ---   label_3_306                       -lw s6, -4(t2);
+reg:      0x0015c4 ---   label_3_306                       -wrote s6 = 0x210
+insn:     0x0015c8 ---   label_3_306                       -sw s1, -20(t1);
+insn:     0x0015cc ---   label_3_306                       -sw s1, -32(t1);
+insn:     0x0015d0 ---   label_3_306                       -lw a4, -20(t2);
+reg:      0x0015d0 ---   label_3_306                       -wrote a4 = 0x210
+insn:     0x0015d4 ---   label_3_306                       -lw t0, -16(t1);
+reg:      0x0015d4 ---   label_3_306                       -wrote t0 = 0x210
+insn:     0x0015d8 ---   label_3_306                       -lw a2, 28(t1);
+reg:      0x0015d8 ---   label_3_306                       -wrote a2 = 0x200
+insn:     0x0015dc ---   label_3_306                       -lw t4, -12(t1);
+reg:      0x0015dc ---   label_3_306                       -wrote t4 = 0x210
+insn:     0x0015e0 ---   label_3_306                       -lw a6, -32(t1);
+reg:      0x0015e0 ---   label_3_306                       -wrote a6 = 0x210
+insn:     0x0015e4 ---   label_3_306                       -lw sp, 4(t1);
+reg:      0x0015e4 ---   label_3_306                       -wrote sp = 0x210
+insn:     0x0015e8 ---   label_3_306                       -sw t2, 8(t2);
+insn:     0x0015ec ---   label_3_306                       -sw a0, -20(t1);
+insn:     0x0015f0 ---   label_3_306                       -sw s0, -20(t2);
+insn:     0x0015f4 ---   label_3_306                       -lw s1, 16(t1);
+reg:      0x0015f4 ---   label_3_306                       -wrote s1 = 0x210
+insn:     0x0015f8 ---   label_3_306                       -lw a5, -24(t1);
+reg:      0x0015f8 ---   label_3_306                       -wrote a5 = 0x210
+insn:     0x0015fc ---   label_3_306                       -lw a5, 4(t2);
+reg:      0x0015fc ---   label_3_306                       -wrote a5 = 0x210
+insn:     0x001600 ---   label_3_306                       -sw s0, -24(t1);
+insn:     0x001604 ---   label_3_306                       -sw s1, -16(t2);
+insn:     0x001608 ---   label_3_306                       -lw a4, 20(t1);
+reg:      0x001608 ---   label_3_306                       -wrote a4 = 0x210
+insn:     0x00160c ---   label_3_306                       -sw s1, -12(t2);
+insn:     0x001610 ---   label_3_306                       -lw s9, -28(t2);
+reg:      0x001610 ---   label_3_306                       -wrote s9 = 0x210
+insn:     0x001614 ---   label_3_306                       -sw t2, 12(t1);
+insn:     0x001618 ---   label_3_306                       -lw a4, -16(t2);
+reg:      0x001618 ---   label_3_306                       -wrote a4 = 0x210
+insn:     0x00161c ---   label_3_306                       -sw t2, 20(t1);
+insn:     0x001620 ---   label_3_306                       -lw s6, 4(t2);
+reg:      0x001620 ---   label_3_306                       -wrote s6 = 0x210
+insn:     0x001624 ---   label_3_306                       -lw s2, 16(t1);
+reg:      0x001624 ---   label_3_306                       -wrote s2 = 0x210
+insn:     0x001628 ---   label_3_306                       -sw t2, -4(t1);
+insn:     0x00162c ---   label_3_306                       -sw s0, 16(t1);
+insn:     0x001630 ---   label_3_306                       -sw s1, 8(t2);
+insn:     0x001634 ---   label_3_306                       -sw a0, -28(t2);
+insn:     0x001638 ---   label_3_306                       -lw t3, -28(t1);
+reg:      0x001638 ---   label_3_306                       -wrote t3 = 0x210
+insn:     0x00163c ---   label_3_306                       -lw s2, -20(t1);
+reg:      0x00163c ---   label_3_306                       -wrote s2 = 0x210
+insn:     0x001640 ---   label_3_306                       -sw s1, 0(t1);
+insn:     0x001644 ---   label_3_306                       -lw sp, 20(t1);
+reg:      0x001644 ---   label_3_306                       -wrote sp = 0x210
+insn:     0x001648 ---   label_3_306                       -sw a1, 28(t2);
+insn:     0x00164c ---   label_3_306                       -sw a0, 24(t1);
+insn:     0x001650 ---   label_3_306                       -lw ra, -32(t2);
+reg:      0x001650 ---   label_3_306                       -wrote ra = 0x210
+insn:     0x001654 ---   label_3_306                       -sw s1, 24(t2);
+insn:     0x001658 ---   label_3_306                       -sw s0, -20(t2);
+insn:     0x00165c ---   label_3_306                       -sw t2, -16(t1);
+insn:     0x001660 ---   label_3_306                       -lw s7, -12(t2);
+reg:      0x001660 ---   label_3_306                       -wrote s7 = 0x210
+insn:     0x001664 ---   label_3_306                       -sw s0, -24(t1);
+insn:     0x001668 ---   label_3_306                       -sw t2, 28(t2);
+insn:     0x00166c ---   label_3_306                       -sw s0, 0(t2);
+insn:     0x001670 ---   label_3_306                       -lw s10, -32(t1);
+reg:      0x001670 ---   label_3_306                       -wrote s10 = 0x210
+insn:     0x001674 ---   label_3_306                       -lw a5, 28(t1);
+reg:      0x001674 ---   label_3_306                       -wrote a5 = 0x200
+insn:     0x001678 ---   label_3_306                       -sltu sp, a5, a1;  // sp = a5 < a1
+reg:      0x001678 ---   label_3_306                       -wrote sp = 0x1
+insn:     0x00167c ---   label_3_306                       -sw s0, -28(t1);
+insn:     0x001680 ---   label_3_306                       -sub a4, s3, s10;  // a4 = s3 - s10
+reg:      0x001680 ---   label_3_306                       -wrote a4 = 0
+insn:     0x001684 ---   label_3_306                       -sw s1, 28(t1);
+insn:     0x001688 ---   label_3_306                       -sw s1, 4(t1);
+insn:     0x00168c ---   label_3_306                       -sw t2, 4(t2);
+insn:     0x001690 ---   label_3_306                       -sw s1, -24(t1);
+insn:     0x001694 ---   label_3_306                       -lw s7, -16(t1);
+reg:      0x001694 ---   label_3_306                       -wrote s7 = 0x210
+insn:     0x001698 ---   label_3_306                       -slli a1, a2, 2;  // a1 = a2 << 0x2
+reg:      0x001698 ---   label_3_306                       -wrote a1 = 0x800
+insn:     0x00169c ---   label_3_306                       -sw a1, -4(t2);
+insn:     0x0016a0 ---   label_3_306                       -sw s0, -8(t2);
+insn:     0x0016a4 ---   label_3_306                       -lw s11, -12(t2);
+reg:      0x0016a4 ---   label_3_306                       -wrote s11 = 0x210
+insn:     0x0016a8 ---   label_3_306                       -lw s0, -16(t1);
+reg:      0x0016a8 ---   label_3_306                       -wrote s0 = 0x210
+insn:     0x0016ac ---   label_3_306                       -lw a4, 8(t1);
+reg:      0x0016ac ---   label_3_306                       -wrote a4 = 0x210
+insn:     0x0016b0 ---   label_3_306                       -lw t3, -24(t2);
+reg:      0x0016b0 ---   label_3_306                       -wrote t3 = 0x210
+insn:     0x0016b4 ---   label_3_306                       -lw s6, 20(t2);
+reg:      0x0016b4 ---   label_3_306                       -wrote s6 = 0x210
+insn:     0x0016b8 ---   label_3_306                       -sw t2, -16(t1);
+insn:     0x0016bc ---   label_3_306                       -lw a6, 8(t1);
+reg:      0x0016bc ---   label_3_306                       -wrote a6 = 0x210
+insn:     0x0016c0 ---   label_3_306                       -sw a1, 24(t2);
+insn:     0x0016c4 ---   label_3_306                       -lw t6, -16(t2);
+reg:      0x0016c4 ---   label_3_306                       -wrote t6 = 0x210
+insn:     0x0016c8 ---   label_3_306                       -xor t0, s9, a1;  // t0 = s9 ^ a1
+reg:      0x0016c8 ---   label_3_306                       -wrote t0 = 0xa10
+insn:     0x0016cc ---   label_3_306                       -lw sp, -24(t2);
+reg:      0x0016cc ---   label_3_306                       -wrote sp = 0x210
+insn:     0x0016d0 ---   label_3_306                       -sw s0, -4(t2);
+insn:     0x0016d4 ---   label_3_306                       -sw a1, -28(t2);
+insn:     0x0016d8 ---   label_3_306                       -sw a1, -20(t1);
+insn:     0x0016dc ---   label_3_306                       -lw zero, -28(t2);
+insn:     0x0016e0 ---   label_3_306                       -sw a0, -16(t1);
+insn:     0x0016e4 ---   label_3_306                       -lw t0, 4(t2);
+reg:      0x0016e4 ---   label_3_306                       -wrote t0 = 0x210
+insn:     0x0016e8 ---   label_3_306                       -lw zero, 16(t2);
+insn:     0x0016ec ---   label_3_306                       -sw a1, 16(t2);
+insn:     0x0016f0 ---   label_3_306                       -lw a5, 24(t2);
+reg:      0x0016f0 ---   label_3_306                       -wrote a5 = 0x800
+insn:     0x0016f4 ---   label_3_306                       -lw t4, 20(t2);
+reg:      0x0016f4 ---   label_3_306                       -wrote t4 = 0x210
+insn:     0x0016f8 ---   label_3_306                       -lw t5, -4(t2);
+reg:      0x0016f8 ---   label_3_306                       -wrote t5 = 0x210
+insn:     0x0016fc ---   label_3_306                       -sw a0, 16(t2);
+insn:     0x001700 ---   label_3_306                       -sw a0, 8(t1);
+insn:     0x001704 ---   label_3_306                       -sw a0, 24(t1);
+insn:     0x001708 ---   label_3_306                       -sw a0, 12(t2);
+insn:     0x00170c ---   label_3_306                       -addi t2, t2, 0x14;  // t2 = t2 + 0x14
+reg:      0x00170c ---   label_3_306                       -wrote t2 = 0x224
+insn:     0x001710 ---   label_3_306                       -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x001710 ---   label_3_306                       -wrote t2 = 0x220
+insn:     0x001714 ---   label_3_306                       -lw s11, 8(t1);
+reg:      0x001714 ---   label_3_306                       -wrote s11 = 0x210
+insn:     0x001718 ---   label_3_306                       -lw s0, 12(t2);
+reg:      0x001718 ---   label_3_306                       -wrote s0 = 0x210
+insn:     0x00171c ---   label_3_306                       -lw s10, 4(t2);
+reg:      0x00171c ---   label_3_306                       -wrote s10 = 0x210
+insn:     0x001720 ---   label_3_306                       -sw s0, -20(t2);
+insn:     0x001724 ---   label_3_306                       -sw a1, -12(t1);
+insn:     0x001728 ---   label_3_306                       -lw a6, 28(t2);
+reg:      0x001728 ---   label_3_306                       -wrote a6 = 0x8e
+insn:     0x00172c ---   label_3_306                       -sw a1, 12(t2);
+insn:     0x001730 ---   label_3_306                       -lw s7, -32(t1);
+reg:      0x001730 ---   label_3_306                       -wrote s7 = 0x210
+insn:     0x001734 ---   label_3_306                       -lw a2, 0(t1);
+reg:      0x001734 ---   label_3_306                       -wrote a2 = 0x210
+insn:     0x001738 ---   label_3_306                       -lw s11, -24(t1);
+reg:      0x001738 ---   label_3_306                       -wrote s11 = 0x210
+insn:     0x00173c ---   label_3_306                       -sw s1, 4(t2);
+insn:     0x001740 ---   label_3_306                       -lw s0, 20(t2);
+reg:      0x001740 ---   label_3_306                       -wrote s0 = 0x8c
+insn:     0x001744 ---   label_3_306                       -sw s0, -24(t1);
+insn:     0x001748 ---   label_3_306                       -sw a0, 8(t2);
+insn:     0x00174c ---   label_3_306                       -lw s9, -12(t1);
+reg:      0x00174c ---   label_3_306                       -wrote s9 = 0x800
+insn:     0x001750 ---   label_3_306                       -lw t0, 8(t2);
+reg:      0x001750 ---   label_3_306                       -wrote t0 = 0x210
+insn:     0x001754 ---   label_3_306                       -lw s5, 28(t2);
+reg:      0x001754 ---   label_3_306                       -wrote s5 = 0x8e
+insn:     0x001758 ---   label_3_306                       -lw t6, 12(t2);
+reg:      0x001758 ---   label_3_306                       -wrote t6 = 0x800
+insn:     0x00175c ---   label_3_306                       -lw s5, 16(t1);
+reg:      0x00175c ---   label_3_306                       -wrote s5 = 0x210
+insn:     0x001760 ---   label_3_306                       -lw a7, 28(t2);
+reg:      0x001760 ---   label_3_306                       -wrote a7 = 0x8e
+insn:     0x001764 ---   label_3_306                       -sw s1, 8(t2);
+insn:     0x001768 ---   label_3_306                       -lw t3, -28(t1);
+reg:      0x001768 ---   label_3_306                       -wrote t3 = 0x210
+insn:     0x00176c ---   label_3_306                       -lw t3, 20(t2);
+reg:      0x00176c ---   label_3_306                       -wrote t3 = 0x8c
+insn:     0x001770 ---   label_3_306                       -sw a1, -20(t2);
+insn:     0x001774 ---   label_3_306                       -sw s0, -32(t2);
+insn:     0x001778 ---   label_3_306                       -sw s0, 8(t1);
+insn:     0x00177c ---   label_3_306                       -sw a1, 28(t2);
+insn:     0x001780 ---   label_3_306                       -sw s0, -28(t2);
+insn:     0x001784 ---   label_3_306                       -lw t4, 12(t1);
+reg:      0x001784 ---   label_3_306                       -wrote t4 = 0x800
+insn:     0x001788 ---   label_3_306                       -lw t0, 12(t1);
+reg:      0x001788 ---   label_3_306                       -wrote t0 = 0x800
+insn:     0x00178c ---   label_3_306                       -lw t4, 24(t2);
+reg:      0x00178c ---   label_3_306                       -wrote t4 = 0x8d
+insn:     0x001790 ---   label_3_306                       -lw a0, -28(t2);
+reg:      0x001790 ---   label_3_306                       -wrote a0 = 0x8c
+insn:     0x001794 ---   label_3_306                       -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x001798 ---   label_3_306                       -bne s7, t3, 0x8;  // if (s7 != t3) goto 0x8
+branch:   0x001798 ---   label_3_306                       -to 0x17a0
+insn:     0x0017a0 ---   label_4_376                       -sw a1, -32(t2);
+insn:     0x0017a4 ---   label_4_376                       -lw tp, -16(t2);
+reg:      0x0017a4 ---   label_4_376                       -wrote tp = 0x210
+insn:     0x0017a8 ---   label_4_376                       -lw a4, 4(t1);
+reg:      0x0017a8 ---   label_4_376                       -wrote a4 = 0x8c
+insn:     0x0017ac ---   label_4_376                       -lw t0, 12(t2);
+reg:      0x0017ac ---   label_4_376                       -wrote t0 = 0x800
+insn:     0x0017b0 ---   label_4_376                       -lw sp, 16(t2);
+reg:      0x0017b0 ---   label_4_376                       -wrote sp = 0x8b
+insn:     0x0017b4 ---   label_4_376                       -lw s7, -32(t1);
+reg:      0x0017b4 ---   label_4_376                       -wrote s7 = 0x210
+insn:     0x0017b8 ---   label_4_376                       -sw s0, 28(t1);
+insn:     0x0017bc ---   label_4_376                       -lw s11, 4(t1);
+reg:      0x0017bc ---   label_4_376                       -wrote s11 = 0x8c
+insn:     0x0017c0 ---   label_4_376                       -sw a1, -24(t2);
+insn:     0x0017c4 ---   label_4_376                       -lw t6, 4(t2);
+reg:      0x0017c4 ---   label_4_376                       -wrote t6 = 0x210
+insn:     0x0017c8 ---   label_4_376                       -lw s10, 24(t2);
+reg:      0x0017c8 ---   label_4_376                       -wrote s10 = 0x8d
+insn:     0x0017cc ---   label_4_376                       -lw s9, 16(t2);
+reg:      0x0017cc ---   label_4_376                       -wrote s9 = 0x8b
+insn:     0x0017d0 ---   label_4_376                       -sw a0, 12(t1);
+insn:     0x0017d4 ---   label_4_376                       -sw s1, -20(t2);
+insn:     0x0017d8 ---   label_4_376                       -lw zero, -8(t2);
+insn:     0x0017dc ---   label_4_376                       -sw a1, 16(t1);
+insn:     0x0017e0 ---   label_4_376                       -lw a7, 16(t1);
+reg:      0x0017e0 ---   label_4_376                       -wrote a7 = 0x800
+insn:     0x0017e4 ---   label_4_376                       -sw s0, 28(t1);
+insn:     0x0017e8 ---   label_4_376                       -sw s0, 24(t2);
+insn:     0x0017ec ---   label_4_376                       -sw s1, 0(t2);
+insn:     0x0017f0 ---   label_4_376                       -lw s1, 20(t2);
+reg:      0x0017f0 ---   label_4_376                       -wrote s1 = 0x8c
+insn:     0x0017f4 ---   label_4_376                       -sw s1, 4(t1);
+insn:     0x0017f8 ---   label_4_376                       -sw t2, -32(t1);
+insn:     0x0017fc ---   label_4_376                       -lw t5, 0(t2);
+reg:      0x0017fc ---   label_4_376                       -wrote t5 = 0x210
+insn:     0x001800 ---   label_4_376                       -lw s10, -20(t1);
+reg:      0x001800 ---   label_4_376                       -wrote s10 = 0x800
+insn:     0x001804 ---   label_4_376                       -lw a2, -20(t2);
+reg:      0x001804 ---   label_4_376                       -wrote a2 = 0x210
+insn:     0x001808 ---   label_4_376                       -sw s0, 16(t1);
+insn:     0x00180c ---   label_4_376                       -lw s7, 16(t1);
+reg:      0x00180c ---   label_4_376                       -wrote s7 = 0x8c
+insn:     0x001810 ---   label_4_376                       -lw s0, -24(t1);
+reg:      0x001810 ---   label_4_376                       -wrote s0 = 0x8c
+insn:     0x001814 ---   label_4_376                       -sw a1, 0(t2);
+insn:     0x001818 ---   label_4_376                       -lw s6, -28(t2);
+reg:      0x001818 ---   label_4_376                       -wrote s6 = 0x8c
+insn:     0x00181c ---   label_4_376                       -lw a2, -12(t1);
+reg:      0x00181c ---   label_4_376                       -wrote a2 = 0x800
+insn:     0x001820 ---   label_4_376                       -lw s2, -8(t2);
+reg:      0x001820 ---   label_4_376                       -wrote s2 = 0x210
+insn:     0x001824 ---   label_4_376                       -sub t3, s0, a4;  // t3 = s0 - a4
+reg:      0x001824 ---   label_4_376                       -wrote t3 = 0
+insn:     0x001828 ---   label_4_376                       -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x00182c ---   label_4_376                       -bne s10, t4, 0x14;  // if (s10 != t4) goto 0x14
+branch:   0x00182c ---   label_4_376                       -to 0x1840
+insn:     0x001840 ---   label_5_405                       -sw a0, -20(t2);
+insn:     0x001844 ---   label_5_405                       -lw s0, 20(t1);
+reg:      0x001844 ---   label_5_405                       -wrote s0 = 0x210
+insn:     0x001848 ---   label_5_405                       -sw s0, -16(t2);
+insn:     0x00184c ---   label_5_405                       -sw a1, 20(t2);
+insn:     0x001850 ---   label_5_405                       -sw s0, 12(t1);
+insn:     0x001854 ---   label_5_405                       -sw a0, 12(t1);
+insn:     0x001858 ---   label_5_405                       -lw s8, -20(t2);
+reg:      0x001858 ---   label_5_405                       -wrote s8 = 0x8c
+insn:     0x00185c ---   label_5_405                       -sw s0, 4(t1);
+insn:     0x001860 ---   label_5_405                       -sw t2, -16(t2);
+insn:     0x001864 ---   label_5_405                       -lw s7, -4(t2);
+reg:      0x001864 ---   label_5_405                       -wrote s7 = 0x8c
+insn:     0x001868 ---   label_5_405                       -addi t2, t2, 0xffffffec;  // t2 = t2 + 0xffffffec
+reg:      0x001868 ---   label_5_405                       -wrote t2 = 0x20c
+insn:     0x00186c ---   label_5_405                       -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x00186c ---   label_5_405                       -wrote t2 = 0x200
+insn:     0x001870 ---   label_5_405                       -lw a7, 20(t2);
+reg:      0x001870 ---   label_5_405                       -wrote a7 = 0x210
+insn:     0x001874 ---   label_5_405                       -lw zero, -20(t1);
+insn:     0x001878 ---   label_5_405                       -sw s1, -20(t2);
+insn:     0x00187c ---   label_5_405                       -sw s1, 16(t2);
+insn:     0x001880 ---   label_5_405                       -lw sp, 24(t1);
+reg:      0x001880 ---   label_5_405                       -wrote sp = 0x210
+insn:     0x001884 ---   label_5_405                       -sw t2, -24(t1);
+insn:     0x001888 ---   label_5_405                       -sw s1, 16(t2);
+insn:     0x00188c ---   label_5_405                       -lw a3, -24(t1);
+reg:      0x00188c ---   label_5_405                       -wrote a3 = 0x200
+insn:     0x001890 ---   label_5_405                       -lw t6, -32(t2);
+reg:      0x001890 ---   label_5_405                       -wrote t6 = 0x220
+insn:     0x001894 ---   label_5_405                       -lw s9, 4(t1);
+reg:      0x001894 ---   label_5_405                       -wrote s9 = 0x210
+insn:     0x001898 ---   label_5_405                       -lw s9, 4(t2);
+reg:      0x001898 ---   label_5_405                       -wrote s9 = 0x210
+insn:     0x00189c ---   label_5_405                       -sw t2, 8(t1);
+insn:     0x0018a0 ---   label_5_405                       -sw t2, -32(t1);
+insn:     0x0018a4 ---   label_5_405                       -lw s9, 28(t1);
+reg:      0x0018a4 ---   label_5_405                       -wrote s9 = 0x8c
+insn:     0x0018a8 ---   label_5_405                       -sw a0, 16(t2);
+insn:     0x0018ac ---   label_5_405                       -sw a1, 20(t1);
+insn:     0x0018b0 ---   label_5_405                       -sw s1, 12(t1);
+insn:     0x0018b4 ---   label_5_405                       -sw a1, 20(t2);
+insn:     0x0018b8 ---   label_5_405                       -sw s1, -20(t2);
+insn:     0x0018bc ---   label_5_405                       -sw a0, -24(t1);
+insn:     0x0018c0 ---   label_5_405                       -lw a4, 8(t2);
+reg:      0x0018c0 ---   label_5_405                       -wrote a4 = 0x200
+insn:     0x0018c4 ---   label_5_405                       -sw a0, 12(t2);
+insn:     0x0018c8 ---   label_5_405                       -sw t2, 8(t1);
+insn:     0x0018cc ---   label_5_405                       -lw t3, -4(t2);
+reg:      0x0018cc ---   label_5_405                       -wrote t3 = 0x210
+insn:     0x0018d0 ---   label_5_405                       -lw s11, -28(t1);
+reg:      0x0018d0 ---   label_5_405                       -wrote s11 = 0x210
+insn:     0x0018d4 ---   label_5_405                       -lw s4, 8(t1);
+reg:      0x0018d4 ---   label_5_405                       -wrote s4 = 0x200
+insn:     0x0018d8 ---   label_5_405                       -sw s1, -16(t1);
+insn:     0x0018dc ---   label_5_405                       -sw s1, 8(t1);
+insn:     0x0018e0 ---   label_5_405                       -lw t6, -12(t2);
+reg:      0x0018e0 ---   label_5_405                       -wrote t6 = 0x800
+insn:     0x0018e4 ---   label_5_405                       -sw a1, -24(t1);
+insn:     0x0018e8 ---   label_5_405                       -lw tp, -12(t2);
+reg:      0x0018e8 ---   label_5_405                       -wrote tp = 0x800
+insn:     0x0018ec ---   label_5_405                       -addi t1, t1, 0xffffffec;  // t1 = t1 + 0xffffffec
+reg:      0x0018ec ---   label_5_405                       -wrote t1 = 0x1ec
+insn:     0x0018f0 ---   label_5_405                       -andi t1, t1, -16;  // t1 = t1 & 0xfffffff0
+reg:      0x0018f0 ---   label_5_405                       -wrote t1 = 0x1e0
+insn:     0x0018f4 ---   label_5_405                       -lw a0, -28(t2);
+reg:      0x0018f4 ---   label_5_405                       -wrote a0 = 0x210
+insn:     0x0018f8 ---   label_5_405                       -lw zero, 28(t2);
+insn:     0x0018fc ---   label_5_405                       -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x001900 ---   label_5_405                       -bge a1, t3, 0x40;  // if (a1 >= t3) goto 0x40
+branch:   0x001900 ---   label_5_405                       -to 0x1940
+insn:     0x001940 ---   label_6_975                       -lw s4, -24(t2);
+reg:      0x001940 ---   label_6_975                       -wrote s4 = 0x800
+insn:     0x001944 ---   label_6_975                       -sw s1, -28(t2);
+insn:     0x001948 ---   label_6_975                       -lw a7, 16(t2);
+reg:      0x001948 ---   label_6_975                       -wrote a7 = 0x8c
+insn:     0x00194c ---   label_6_975                       -sw s0, 8(t1);
+insn:     0x001950 ---   label_6_975                       -lw a5, -24(t2);
+reg:      0x001950 ---   label_6_975                       -wrote a5 = 0x210
+insn:     0x001954 ---   label_6_975                       -lw s4, 20(t2);
+reg:      0x001954 ---   label_6_975                       -wrote s4 = 0x800
+insn:     0x001958 ---   label_6_975                       -sw s0, 24(t1);
+insn:     0x00195c ---   label_6_975                       -sw s0, 8(t2);
+insn:     0x001960 ---   label_6_975                       -sw s1, 12(t2);
+insn:     0x001964 ---   label_6_975                       -sw s1, -24(t1);
+insn:     0x001968 ---   label_6_975                       -sw t2, 24(t2);
+insn:     0x00196c ---   label_6_975                       -lw a3, 24(t1);
+reg:      0x00196c ---   label_6_975                       -wrote a3 = 0x210
+insn:     0x001970 ---   label_6_975                       -sw s0, -20(t1);
+insn:     0x001974 ---   label_6_975                       -sw t2, -32(t1);
+insn:     0x001978 ---   label_6_975                       -lw a4, 20(t1);
+reg:      0x001978 ---   label_6_975                       -wrote a4 = 0x800
+insn:     0x00197c ---   label_6_975                       -sw a0, 24(t1);
+insn:     0x001980 ---   label_6_975                       -sw t2, 12(t2);
+insn:     0x001984 ---   label_6_975                       -sw a0, -8(t2);
+insn:     0x001988 ---   label_6_975                       -lw tp, -16(t2);
+reg:      0x001988 ---   label_6_975                       -wrote tp = 0x8c
+insn:     0x00198c ---   label_6_975                       -sw s1, 4(t1);
+insn:     0x001990 ---   label_6_975                       -sw t2, -24(t1);
+insn:     0x001994 ---   label_6_975                       -lw zero, 24(t2);
+insn:     0x001998 ---   label_6_975                       -lw zero, 24(t1);
+insn:     0x00199c ---   label_6_975                       -sw a1, -16(t1);
+insn:     0x0019a0 ---   label_6_975                       -sw s0, -24(t1);
+insn:     0x0019a4 ---   label_6_975                       -lw s5, -4(t1);
+reg:      0x0019a4 ---   label_6_975                       -wrote s5 = 0x76
+insn:     0x0019a8 ---   label_6_975                       -sw a0, -20(t2);
+insn:     0x0019ac ---   label_6_975                       -lw gp, 16(t2);
+reg:      0x0019ac ---   label_6_975                       -wrote gp = 0x8c
+insn:     0x0019b0 ---   label_6_975                       -lw t5, 8(t2);
+reg:      0x0019b0 ---   label_6_975                       -wrote t5 = 0x210
+insn:     0x0019b4 ---   label_6_975                       -lw zero, 24(t1);
+insn:     0x0019b8 ---   label_6_975                       -lw s1, -4(t1);
+reg:      0x0019b8 ---   label_6_975                       -wrote s1 = 0x76
+insn:     0x0019bc ---   label_6_975                       -lw s11, 28(t1);
+reg:      0x0019bc ---   label_6_975                       -wrote s11 = 0x210
+insn:     0x0019c0 ---   label_6_975                       -sw a0, -32(t2);
+insn:     0x0019c4 ---   label_6_975                       -sw s1, 24(t1);
+insn:     0x0019c8 ---   label_6_975                       -sw t2, 8(t2);
+insn:     0x0019cc ---   label_6_975                       -lw s1, -20(t1);
+reg:      0x0019cc ---   label_6_975                       -wrote s1 = 0x210
+insn:     0x0019d0 ---   label_6_975                       -sw t2, -32(t2);
+insn:     0x0019d4 ---   label_6_975                       -addi t2, t2, 0xc;  // t2 = t2 + 0xc
+reg:      0x0019d4 ---   label_6_975                       -wrote t2 = 0x20c
+insn:     0x0019d8 ---   label_6_975                       -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x0019d8 ---   label_6_975                       -wrote t2 = 0x200
+insn:     0x0019dc ---   label_6_975                       -sw s1, 0(t1);
+insn:     0x0019e0 ---   label_6_975                       -lw ra, 0(t1);
+reg:      0x0019e0 ---   label_6_975                       -wrote ra = 0x210
+insn:     0x0019e4 ---   label_6_975                       -lw t5, 20(t2);
+reg:      0x0019e4 ---   label_6_975                       -wrote t5 = 0x800
+insn:     0x0019e8 ---   label_6_975                       -sw a0, -4(t2);
+insn:     0x0019ec ---   label_6_975                       -lw s11, -28(t2);
+reg:      0x0019ec ---   label_6_975                       -wrote s11 = 0x8c
+insn:     0x0019f0 ---   label_6_975                       -sw t2, 28(t1);
+insn:     0x0019f4 ---   label_6_975                       -lw a7, 24(t1);
+reg:      0x0019f4 ---   label_6_975                       -wrote a7 = 0x76
+insn:     0x0019f8 ---   label_6_975                       -lw a4, -32(t1);
+reg:      0x0019f8 ---   label_6_975                       -wrote a4 = 0x200
+insn:     0x0019fc ---   label_6_975                       -sw s1, 24(t2);
+insn:     0x001a00 ---   label_6_975                       -sw a1, 0(t1);
+insn:     0x001a04 ---   label_6_975                       -lw a5, -20(t2);
+reg:      0x001a04 ---   label_6_975                       -wrote a5 = 0x210
+insn:     0x001a08 ---   label_6_975                       -sw a1, 8(t1);
+insn:     0x001a0c ---   label_6_975                       -sw s1, -8(t2);
+insn:     0x001a10 ---   label_6_975                       -lw s5, 24(t2);
+reg:      0x001a10 ---   label_6_975                       -wrote s5 = 0x210
+insn:     0x001a14 ---   label_6_975                       -sw t2, 8(t1);
+insn:     0x001a18 ---   label_6_975                       -sw s0, 16(t1);
+insn:     0x001a1c ---   label_6_975                       -lw t0, 24(t1);
+reg:      0x001a1c ---   label_6_975                       -wrote t0 = 0x210
+insn:     0x001a20 ---   label_6_975                       -sw a1, -12(t2);
+insn:     0x001a24 ---   label_6_975                       -lw a3, 12(t2);
+reg:      0x001a24 ---   label_6_975                       -wrote a3 = 0x200
+insn:     0x001a28 ---   label_6_975                       -sw t2, -4(t1);
+insn:     0x001a2c ---   label_6_975                       -lw a5, 24(t1);
+reg:      0x001a2c ---   label_6_975                       -wrote a5 = 0x210
+insn:     0x001a30 ---   label_6_975                       -lw a6, 20(t1);
+reg:      0x001a30 ---   label_6_975                       -wrote a6 = 0x800
+insn:     0x001a34 ---   label_6_975                       -sw a1, -32(t1);
+insn:     0x001a38 ---   label_6_975                       -lw t0, -12(t2);
+reg:      0x001a38 ---   label_6_975                       -wrote t0 = 0x800
+insn:     0x001a3c ---   label_6_975                       -sw s0, 12(t1);
+insn:     0x001a40 ---   label_6_975                       -addi t2, t2, 0xffffffec;  // t2 = t2 + 0xffffffec
+reg:      0x001a40 ---   label_6_975                       -wrote t2 = 0x1ec
+insn:     0x001a44 ---   label_6_975                       -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x001a44 ---   label_6_975                       -wrote t2 = 0x1e0
+insn:     0x001a48 ---   label_6_975                       -sw a1, 16(t2);
+insn:     0x001a4c ---   label_6_975                       -addi t1, t1, 0xffffffe8;  // t1 = t1 + 0xffffffe8
+reg:      0x001a4c ---   label_6_975                       -wrote t1 = 0x1c8
+insn:     0x001a50 ---   label_6_975                       -andi t1, t1, -16;  // t1 = t1 & 0xfffffff0
+reg:      0x001a50 ---   label_6_975                       -wrote t1 = 0x1c0
+insn:     0x001a54 ---   label_6_975                       -lw s0, 20(t2);
+reg:      0x001a54 ---   label_6_975                       -wrote s0 = 0x800
+insn:     0x001a58 ---   label_6_975                       -sw t2, -24(t2);
+insn:     0x001a5c ---   label_6_975                       -sw s1, -24(t1);
+insn:     0x001a60 ---   label_6_975                       -sw a1, -32(t2);
+insn:     0x001a64 ---   label_6_975                       -lw a6, 4(t1);
+reg:      0x001a64 ---   label_6_975                       -wrote a6 = 0x70
+insn:     0x001a68 ---   label_6_975                       -lw s7, -8(t1);
+reg:      0x001a68 ---   label_6_975                       -wrote s7 = 0x6d
+insn:     0x001a6c ---   label_6_975                       -and s4, a7, s2;  // s4 = a7 & s2
+reg:      0x001a6c ---   label_6_975                       -wrote s4 = 0x10
+insn:     0x001a70 ---   label_6_975                       -sw t2, 4(t1);
+insn:     0x001a74 ---   label_6_975                       -lw s4, -16(t1);
+reg:      0x001a74 ---   label_6_975                       -wrote s4 = 0x6b
+insn:     0x001a78 ---   label_6_975                       -sw t2, -28(t1);
+insn:     0x001a7c ---   label_6_975                       -lw s6, 24(t2);
+reg:      0x001a7c ---   label_6_975                       -wrote s6 = 0x210
+insn:     0x001a80 ---   label_6_975                       -sw t2, 12(t1);
+insn:     0x001a84 ---   label_6_975                       -lw a1, -32(t2);
+reg:      0x001a84 ---   label_6_975                       -wrote a1 = 0x800
+insn:     0x001a88 ---   label_6_975                       -lw gp, -20(t1);
+reg:      0x001a88 ---   label_6_975                       -wrote gp = 0x6a
+insn:     0x001a8c ---   label_6_975                       -sw t2, 8(t2);
+insn:     0x001a90 ---   label_6_975                       -sw a0, -12(t2);
+insn:     0x001a94 ---   label_6_975                       -sw a0, -24(t2);
+insn:     0x001a98 ---   label_6_975                       -lw s1, 28(t1);
+reg:      0x001a98 ---   label_6_975                       -wrote s1 = 0x200
+insn:     0x001a9c ---   label_6_975                       -sw s1, -32(t1);
+insn:     0x001aa0 ---   label_6_975                       -lw t4, 16(t2);
+reg:      0x001aa0 ---   label_6_975                       -wrote t4 = 0x800
+insn:     0x001aa4 ---   label_6_975                       -lw t3, 20(t1);
+reg:      0x001aa4 ---   label_6_975                       -wrote t3 = 0x210
+insn:     0x001aa8 ---   label_6_975                       -lw gp, 28(t1);
+reg:      0x001aa8 ---   label_6_975                       -wrote gp = 0x200
+insn:     0x001aac ---   label_6_975                       -sw a1, 20(t2);
+insn:     0x001ab0 ---   label_6_975                       -lw t4, -24(t1);
+reg:      0x001ab0 ---   label_6_975                       -wrote t4 = 0x210
+insn:     0x001ab4 ---   label_6_975                       -lw gp, 4(t1);
+reg:      0x001ab4 ---   label_6_975                       -wrote gp = 0x1e0
+insn:     0x001ab8 ---   label_6_975                       -lw s1, 16(t2);
+reg:      0x001ab8 ---   label_6_975                       -wrote s1 = 0x800
+insn:     0x001abc ---   label_6_975                       -lw gp, -8(t2);
+reg:      0x001abc ---   label_6_975                       -wrote gp = 0x75
+insn:     0x001ac0 ---   label_6_975                       -lw a7, 28(t2);
+reg:      0x001ac0 ---   label_6_975                       -wrote a7 = 0x200
+insn:     0x001ac4 ---   label_6_975                       -lw a7, -4(t2);
+reg:      0x001ac4 ---   label_6_975                       -wrote a7 = 0x200
+insn:     0x001ac8 ---   label_6_975                       -sw s0, -12(t1);
+insn:     0x001acc ---   label_6_975                       -sw a0, -24(t2);
+insn:     0x001ad0 ---   label_6_975                       -sw s0, 28(t2);
+insn:     0x001ad4 ---   label_6_975                       -sw s0, 24(t2);
+insn:     0x001ad8 ---   label_6_975                       -sw s1, -8(t2);
+insn:     0x001adc ---   label_6_975                       -sw s0, -24(t1);
+insn:     0x001ae0 ---   label_6_975                       -sw a1, 24(t2);
+insn:     0x001ae4 ---   label_6_975                       -lw s7, -20(t1);
+reg:      0x001ae4 ---   label_6_975                       -wrote s7 = 0x6a
+insn:     0x001ae8 ---   label_6_975                       -sw a0, 12(t2);
+insn:     0x001aec ---   label_6_975                       -lw s11, -24(t1);
+reg:      0x001aec ---   label_6_975                       -wrote s11 = 0x800
+insn:     0x001af0 ---   label_6_975                       -sw a1, -24(t2);
+insn:     0x001af4 ---   label_6_975                       -lw sp, 24(t2);
+reg:      0x001af4 ---   label_6_975                       -wrote sp = 0x800
+insn:     0x001af8 ---   label_6_975                       -sw t2, -8(t2);
+insn:     0x001afc ---   label_6_975                       -sw a1, -20(t2);
+insn:     0x001b00 ---   label_6_975                       -lw a2, -32(t2);
+reg:      0x001b00 ---   label_6_975                       -wrote a2 = 0x800
+insn:     0x001b04 ---   label_6_975                       -sw s0, -28(t1);
+insn:     0x001b08 ---   label_6_975                       -lw s4, 12(t2);
+reg:      0x001b08 ---   label_6_975                       -wrote s4 = 0x210
+insn:     0x001b0c ---   label_6_975                       -sw a1, 28(t1);
+insn:     0x001b10 ---   label_6_975                       -lw s5, 16(t1);
+reg:      0x001b10 ---   label_6_975                       -wrote s5 = 0x800
+insn:     0x001b14 ---   label_6_975                       -sw s0, -28(t2);
+insn:     0x001b18 ---   label_6_975                       -lw a6, 4(t1);
+reg:      0x001b18 ---   label_6_975                       -wrote a6 = 0x800
+insn:     0x001b1c ---   label_6_975                       -lw a3, 12(t2);
+reg:      0x001b1c ---   label_6_975                       -wrote a3 = 0x210
+insn:     0x001b20 ---   label_6_975                       -sw t2, 8(t1);
+insn:     0x001b24 ---   label_6_975                       -sw a1, 16(t1);
+insn:     0x001b28 ---   label_6_975                       -lw s1, 4(t2);
+reg:      0x001b28 ---   label_6_975                       -wrote s1 = 0x8c
+insn:     0x001b2c ---   label_6_975                       -lw t3, -28(t2);
+reg:      0x001b2c ---   label_6_975                       -wrote t3 = 0x800
+insn:     0x001b30 ---   label_6_975                       -lw a6, -8(t1);
+reg:      0x001b30 ---   label_6_975                       -wrote a6 = 0x6d
+insn:     0x001b34 ---   label_6_975                       -lw t6, 20(t2);
+reg:      0x001b34 ---   label_6_975                       -wrote t6 = 0x800
+insn:     0x001b38 ---   label_6_975                       -sw s1, -20(t2);
+insn:     0x001b3c ---   label_6_975                       -sw a1, 12(t2);
+insn:     0x001b40 ---   label_6_975                       -sw s0, -12(t1);
+insn:     0x001b44 ---   label_6_975                       -lw s2, 16(t2);
+reg:      0x001b44 ---   label_6_975                       -wrote s2 = 0x800
+insn:     0x001b48 ---   label_6_975                       -sw t2, -20(t1);
+insn:     0x001b4c ---   label_6_975                       -lw a3, 28(t1);
+reg:      0x001b4c ---   label_6_975                       -wrote a3 = 0x800
+insn:     0x001b50 ---   label_6_975                       -sw a1, 12(t2);
+insn:     0x001b54 ---   label_6_975                       -lw zero, -12(t2);
+insn:     0x001b58 ---   label_6_975                       -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x001b5c ---   label_6_975                       -bltu a7, s7, 0x30;  // if (a7 < s7) goto 0x30
+insn:     0x001b60 ---   label_6_975                       -sll a6, a3, ra;  // a6 = a3 << ra
+reg:      0x001b60 ---   label_6_975                       -wrote a6 = 0x8000000
+insn:     0x001b64 ---   label_6_975                       -ori t6, a3, 3;  // t6 = a3 | 0x3
+reg:      0x001b64 ---   label_6_975                       -wrote t6 = 0x803
+insn:     0x001b68 ---   label_6_975                       -sltiu a4, ra, 0;  // a4 = ra < 0
+reg:      0x001b68 ---   label_6_975                       -wrote a4 = 0
+insn:     0x001b6c ---   label_6_975                       -srai a2, s7, 13;  // a2 = s7 >>> 0xd
+reg:      0x001b6c ---   label_6_975                       -wrote a2 = 0
+insn:     0x001b70 ---   label_6_975                       -add gp, a6, a0;  // gp = a6 + a0
+reg:      0x001b70 ---   label_6_975                       -wrote gp = 0x8000210
+insn:     0x001b74 ---   label_6_975                       -xor a1, t6, s8;  // a1 = t6 ^ s8
+reg:      0x001b74 ---   label_6_975                       -wrote a1 = 0x88f
+insn:     0x001b78 ---   label_6_975                       -srl s6, t1, s10;  // s6 = t1 >> s10
+reg:      0x001b78 ---   label_6_975                       -wrote s6 = 0x1c0
+insn:     0x001b7c ---   label_6_975                       -ori gp, s7, 7;  // gp = s7 | 0x7
+reg:      0x001b7c ---   label_6_975                       -wrote gp = 0x6f
+insn:     0x001b80 ---   label_6_975                       -add t3, tp, a6;  // t3 = tp + a6
+reg:      0x001b80 ---   label_6_975                       -wrote t3 = 0x800008c
+insn:     0x001b84 ---   label_6_975                       -srli s11, s2, 14;  // s11 = s2 >> 0xe
+reg:      0x001b84 ---   label_6_975                       -wrote s11 = 0
+insn:     0x001b88 ---   label_6_975                       -xor s4, s1, t2;  // s4 = s1 ^ t2
+reg:      0x001b88 ---   label_6_975                       -wrote s4 = 0x16c
+insn:     0x001b8c ---   label_7_747                       -lw s7, -4(t1);
+reg:      0x001b8c ---   label_7_747                       -wrote s7 = 0x6e
+insn:     0x001b90 ---   label_7_747                       -sw a0, 0(t1);
+insn:     0x001b94 ---   label_7_747                       -sw t2, -28(t1);
+insn:     0x001b98 ---   label_7_747                       -sw s1, 8(t1);
+insn:     0x001b9c ---   label_7_747                       -sw t2, -8(t1);
+insn:     0x001ba0 ---   label_7_747                       -lw s7, 0(t2);
+reg:      0x001ba0 ---   label_7_747                       -wrote s7 = 0x800
+insn:     0x001ba4 ---   label_7_747                       -lw s9, 28(t1);
+reg:      0x001ba4 ---   label_7_747                       -wrote s9 = 0x800
+insn:     0x001ba8 ---   label_7_747                       -sw a0, -32(t2);
+insn:     0x001bac ---   label_7_747                       -sw a0, 20(t2);
+insn:     0x001bb0 ---   label_7_747                       -lw tp, -20(t2);
+reg:      0x001bb0 ---   label_7_747                       -wrote tp = 0x8c
+insn:     0x001bb4 ---   label_7_747                       -sw a1, -24(t1);
+insn:     0x001bb8 ---   label_7_747                       -lw s0, 0(t1);
+reg:      0x001bb8 ---   label_7_747                       -wrote s0 = 0x210
+insn:     0x001bbc ---   label_7_747                       -lw a0, 8(t2);
+reg:      0x001bbc ---   label_7_747                       -wrote a0 = 0x1e0
+insn:     0x001bc0 ---   label_7_747                       -lw a7, -32(t2);
+reg:      0x001bc0 ---   label_7_747                       -wrote a7 = 0x210
+insn:     0x001bc4 ---   label_7_747                       -sw s1, 16(t1);
+insn:     0x001bc8 ---   label_7_747                       -sw s1, -24(t2);
+insn:     0x001bcc ---   label_7_747                       -sw a1, -16(t2);
+insn:     0x001bd0 ---   label_7_747                       -sw a0, -4(t2);
+insn:     0x001bd4 ---   label_7_747                       -sw a1, -16(t1);
+insn:     0x001bd8 ---   label_7_747                       -lw t6, 20(t1);
+reg:      0x001bd8 ---   label_7_747                       -wrote t6 = 0x210
+insn:     0x001bdc ---   label_7_747                       -lw s1, 16(t2);
+reg:      0x001bdc ---   label_7_747                       -wrote s1 = 0x800
+insn:     0x001be0 ---   label_7_747                       -sw a0, -8(t2);
+insn:     0x001be4 ---   label_7_747                       -sw a0, -24(t1);
+insn:     0x001be8 ---   label_7_747                       -sw a1, -8(t2);
+insn:     0x001bec ---   label_7_747                       -lw s2, 4(t2);
+reg:      0x001bec ---   label_7_747                       -wrote s2 = 0x8c
+insn:     0x001bf0 ---   label_7_747                       -lw a7, 28(t1);
+reg:      0x001bf0 ---   label_7_747                       -wrote a7 = 0x1e0
+insn:     0x001bf4 ---   label_7_747                       -sw s1, -32(t2);
+insn:     0x001bf8 ---   label_7_747                       -sw s1, 24(t2);
+insn:     0x001bfc ---   label_7_747                       -sw a0, -12(t2);
+insn:     0x001c00 ---   label_7_747                       -sw a0, 12(t2);
+insn:     0x001c04 ---   label_7_747                       -sw s0, 0(t1);
+insn:     0x001c08 ---   label_7_747                       -sw t2, -12(t1);
+insn:     0x001c0c ---   label_7_747                       -sw t2, -20(t1);
+insn:     0x001c10 ---   label_7_747                       -sw t2, -12(t2);
+insn:     0x001c14 ---   label_7_747                       -addi t2, t2, 0xffffffe0;  // t2 = t2 + 0xffffffe0
+reg:      0x001c14 ---   label_7_747                       -wrote t2 = 0x1c0
+insn:     0x001c18 ---   label_7_747                       -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x001c18 ---   label_7_747                       -wrote t2 = 0x1c0
+insn:     0x001c1c ---   label_7_747                       -sw a1, 12(t2);
+insn:     0x001c20 ---   label_7_747                       -sw t2, -32(t1);
+insn:     0x001c24 ---   label_7_747                       -lw s11, -24(t2);
+reg:      0x001c24 ---   label_7_747                       -wrote s11 = 0x1e0
+insn:     0x001c28 ---   label_7_747                       -lw zero, -28(t2);
+insn:     0x001c2c ---   label_7_747                       -sw s1, 0(t2);
+insn:     0x001c30 ---   label_7_747                       -sw a1, -4(t2);
+insn:     0x001c34 ---   label_7_747                       -ori t5, s9, 9;  // t5 = s9 | 0x9
+reg:      0x001c34 ---   label_7_747                       -wrote t5 = 0x809
+insn:     0x001c38 ---   label_7_747                       -sw t2, -8(t1);
+insn:     0x001c3c ---   label_7_747                       -sw s0, -28(t1);
+insn:     0x001c40 ---   label_7_747                       -lw s0, 12(t1);
+reg:      0x001c40 ---   label_7_747                       -wrote s0 = 0x88f
+insn:     0x001c44 ---   label_7_747                       -sw s1, -24(t1);
+insn:     0x001c48 ---   label_7_747                       -sw s1, -28(t1);
+insn:     0x001c4c ---   label_7_747                       -sw t2, 16(t2);
+insn:     0x001c50 ---   label_7_747                       -lw s6, -8(t2);
+reg:      0x001c50 ---   label_7_747                       -wrote s6 = 0x1c0
+insn:     0x001c54 ---   label_7_747                       -lw a7, 0(t1);
+reg:      0x001c54 ---   label_7_747                       -wrote a7 = 0x800
+insn:     0x001c58 ---   label_7_747                       -bgeu s6, s11, 0xc;  // if (s6 >= s11) goto 0xc
+insn:     0x001c5c ---   label_7_747                       -slti sp, sp, 0xa;  // sp = sp < 0xa
+reg:      0x001c5c ---   label_7_747                       -wrote sp = 0
+insn:     0x001c60 ---   label_7_747                       -andi s0, a6, 15;  // s0 = a6 & 0xf
+reg:      0x001c60 ---   label_7_747                       -wrote s0 = 0
+insn:     0x001c64 ---   label_8_78                        -sw t2, -12(t1);
+insn:     0x001c68 ---   label_8_78                        -lw t4, 0(t2);
+reg:      0x001c68 ---   label_8_78                        -wrote t4 = 0x800
+insn:     0x001c6c ---   label_8_78                        -sw a1, 4(t1);
+insn:     0x001c70 ---   label_8_78                        -lw s10, -12(t1);
+reg:      0x001c70 ---   label_8_78                        -wrote s10 = 0x1c0
+insn:     0x001c74 ---   label_8_78                        -lw s8, 16(t2);
+reg:      0x001c74 ---   label_8_78                        -wrote s8 = 0x1c0
+insn:     0x001c78 ---   label_8_78                        -lw t3, -16(t1);
+reg:      0x001c78 ---   label_8_78                        -wrote t3 = 0x88f
+insn:     0x001c7c ---   label_8_78                        -sw a1, 20(t1);
+insn:     0x001c80 ---   label_8_78                        -sw a0, 12(t2);
+insn:     0x001c84 ---   label_8_78                        -sw t2, -24(t1);
+insn:     0x001c88 ---   label_8_78                        -lw s10, -20(t2);
+reg:      0x001c88 ---   label_8_78                        -wrote s10 = 0x1e0
+insn:     0x001c8c ---   label_8_78                        -lw ra, 0(t1);
+reg:      0x001c8c ---   label_8_78                        -wrote ra = 0x800
+insn:     0x001c90 ---   label_8_78                        -sw a1, -12(t1);
+insn:     0x001c94 ---   label_8_78                        -sw a0, -12(t1);
+insn:     0x001c98 ---   label_8_78                        -lw t3, -8(t1);
+reg:      0x001c98 ---   label_8_78                        -wrote t3 = 0x1c0
+insn:     0x001c9c ---   label_8_78                        -sw a0, 16(t1);
+insn:     0x001ca0 ---   label_8_78                        -lw s7, -8(t1);
+reg:      0x001ca0 ---   label_8_78                        -wrote s7 = 0x1c0
+insn:     0x001ca4 ---   label_8_78                        -lw s2, 8(t2);
+reg:      0x001ca4 ---   label_8_78                        -wrote s2 = 0x8c
+insn:     0x001ca8 ---   label_8_78                        -sw s1, 16(t2);
+insn:     0x001cac ---   label_8_78                        -lw s8, -4(t2);
+reg:      0x001cac ---   label_8_78                        -wrote s8 = 0x88f
+insn:     0x001cb0 ---   label_8_78                        -lw s8, -12(t1);
+reg:      0x001cb0 ---   label_8_78                        -wrote s8 = 0x1e0
+insn:     0x001cb4 ---   label_8_78                        -sw a0, -4(t2);
+insn:     0x001cb8 ---   label_8_78                        -sw s0, 20(t1);
+insn:     0x001cbc ---   label_8_78                        -sw a1, -32(t1);
+insn:     0x001cc0 ---   label_8_78                        -lw t5, -24(t1);
+reg:      0x001cc0 ---   label_8_78                        -wrote t5 = 0x1c0
+insn:     0x001cc4 ---   label_8_78                        -lw ra, 12(t2);
+reg:      0x001cc4 ---   label_8_78                        -wrote ra = 0x1e0
+insn:     0x001cc8 ---   label_8_78                        -lw ra, -4(t1);
+reg:      0x001cc8 ---   label_8_78                        -wrote ra = 0x1e0
+insn:     0x001ccc ---   label_8_78                        -sw t2, -12(t2);
+insn:     0x001cd0 ---   label_8_78                        -sw t2, -32(t1);
+insn:     0x001cd4 ---   label_8_78                        -lw a0, 16(t2);
+reg:      0x001cd4 ---   label_8_78                        -wrote a0 = 0x800
+insn:     0x001cd8 ---   label_8_78                        -lw a6, -8(t1);
+reg:      0x001cd8 ---   label_8_78                        -wrote a6 = 0x1c0
+insn:     0x001cdc ---   label_8_78                        -sw s0, 8(t2);
+insn:     0x001ce0 ---   label_8_78                        -lw s11, 4(t1);
+reg:      0x001ce0 ---   label_8_78                        -wrote s11 = 0x88f
+insn:     0x001ce4 ---   label_8_78                        -sw a1, -32(t2);
+insn:     0x001ce8 ---   label_8_78                        -sw a1, 20(t1);
+insn:     0x001cec ---   label_8_78                        -sw t2, 20(t2);
+insn:     0x001cf0 ---   label_8_78                        -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x001cf4 ---   label_8_78                        -beq s8, s4, 0x38;  // if (s8 == s4) goto 0x38
+insn:     0x001cf8 ---   label_8_78                        -sltiu sp, t2, 0xe;  // sp = t2 < 0xe
+reg:      0x001cf8 ---   label_8_78                        -wrote sp = 0
+insn:     0x001cfc ---   label_8_78                        -sra s2, t5, t6;  // s2 = t5 >>> t6
+reg:      0x001cfc ---   label_8_78                        -wrote s2 = 0
+insn:     0x001d00 ---   label_8_78                        -sltiu a4, s2, 0xe;  // a4 = s2 < 0xe
+reg:      0x001d00 ---   label_8_78                        -wrote a4 = 0x1
+insn:     0x001d04 ---   label_8_78                        -xor t0, t1, a0;  // t0 = t1 ^ a0
+reg:      0x001d04 ---   label_8_78                        -wrote t0 = 0x9c0
+insn:     0x001d08 ---   label_8_78                        -slti ra, a7, 0xb;  // ra = a7 < 0xb
+reg:      0x001d08 ---   label_8_78                        -wrote ra = 0
+insn:     0x001d0c ---   label_8_78                        -srl a0, sp, t6;  // a0 = sp >> t6
+reg:      0x001d0c ---   label_8_78                        -wrote a0 = 0
+insn:     0x001d10 ---   label_8_78                        -srl a2, gp, a0;  // a2 = gp >> a0
+reg:      0x001d10 ---   label_8_78                        -wrote a2 = 0x6f
+insn:     0x001d14 ---   label_8_78                        -srli s2, s11, 0;  // s2 = s11 >> 0
+reg:      0x001d14 ---   label_8_78                        -wrote s2 = 0x88f
+insn:     0x001d18 ---   label_8_78                        -slti s4, s7, 0xe;  // s4 = s7 < 0xe
+reg:      0x001d18 ---   label_8_78                        -wrote s4 = 0
+insn:     0x001d1c ---   label_8_78                        -srli a3, s5, 10;  // a3 = s5 >> 0xa
+reg:      0x001d1c ---   label_8_78                        -wrote a3 = 0x2
+insn:     0x001d20 ---   label_8_78                        -andi a6, s7, 1;  // a6 = s7 & 0x1
+reg:      0x001d20 ---   label_8_78                        -wrote a6 = 0
+insn:     0x001d24 ---   label_8_78                        -or t4, a6, sp;  // t4 = a6 | sp
+reg:      0x001d24 ---   label_8_78                        -wrote t4 = 0
+insn:     0x001d28 ---   label_8_78                        -add a2, sp, a0;  // a2 = sp + a0
+reg:      0x001d28 ---   label_8_78                        -wrote a2 = 0
+insn:     0x001d2c ---   label_9_479                       -sw a1, -16(t1);
+insn:     0x001d30 ---   label_9_479                       -sw s0, -4(t1);
+insn:     0x001d34 ---   label_9_479                       -lw s0, -8(t2);
+reg:      0x001d34 ---   label_9_479                       -wrote s0 = 0x1c0
+insn:     0x001d38 ---   label_9_479                       -sw s0, -4(t2);
+insn:     0x001d3c ---   label_9_479                       -sw t2, 0(t1);
+insn:     0x001d40 ---   label_9_479                       -lw s6, 28(t1);
+reg:      0x001d40 ---   label_9_479                       -wrote s6 = 0x1e0
+insn:     0x001d44 ---   label_9_479                       -sw s1, -8(t1);
+insn:     0x001d48 ---   label_9_479                       -lw s2, -28(t1);
+reg:      0x001d48 ---   label_9_479                       -wrote s2 = 0x800
+insn:     0x001d4c ---   label_9_479                       -lw s11, -4(t1);
+reg:      0x001d4c ---   label_9_479                       -wrote s11 = 0x1c0
+insn:     0x001d50 ---   label_9_479                       -sw s0, -4(t1);
+insn:     0x001d54 ---   label_9_479                       -lw t5, 20(t2);
+reg:      0x001d54 ---   label_9_479                       -wrote t5 = 0x1c0
+insn:     0x001d58 ---   label_9_479                       -sw s0, -16(t1);
+insn:     0x001d5c ---   label_9_479                       -sw s0, -32(t1);
+insn:     0x001d60 ---   label_9_479                       -lw s3, 8(t2);
+reg:      0x001d60 ---   label_9_479                       -wrote s3 = 0
+insn:     0x001d64 ---   label_9_479                       -lw s0, -24(t1);
+reg:      0x001d64 ---   label_9_479                       -wrote s0 = 0x1c0
+insn:     0x001d68 ---   label_9_479                       -sw s0, -20(t1);
+insn:     0x001d6c ---   label_9_479                       -sw s0, -8(t2);
+insn:     0x001d70 ---   label_9_479                       -sw a0, 28(t2);
+insn:     0x001d74 ---   label_9_479                       -xori a0, t1, 8;  // a0 = t1 ^ 0x8
+reg:      0x001d74 ---   label_9_479                       -wrote a0 = 0x1c8
+insn:     0x001d78 ---   label_9_479                       -lw s8, 8(t1);
+reg:      0x001d78 ---   label_9_479                       -wrote s8 = 0
+insn:     0x001d7c ---   label_9_479                       -lw a4, -16(t2);
+reg:      0x001d7c ---   label_9_479                       -wrote a4 = 0x1c0
+insn:     0x001d80 ---   label_9_479                       -lw s1, -4(t1);
+reg:      0x001d80 ---   label_9_479                       -wrote s1 = 0x1c0
+insn:     0x001d84 ---   label_9_479                       -sw t2, -4(t2);
+insn:     0x001d88 ---   label_9_479                       -lw a7, 24(t2);
+reg:      0x001d88 ---   label_9_479                       -wrote a7 = 0x88f
+insn:     0x001d8c ---   label_9_479                       -lw s8, 20(t1);
+reg:      0x001d8c ---   label_9_479                       -wrote s8 = 0x1c0
+insn:     0x001d90 ---   label_9_479                       -lw t6, 24(t2);
+reg:      0x001d90 ---   label_9_479                       -wrote t6 = 0x88f
+insn:     0x001d94 ---   label_9_479                       -lw gp, -20(t2);
+reg:      0x001d94 ---   label_9_479                       -wrote gp = 0x1c0
+insn:     0x001d98 ---   label_9_479                       -lw s11, 4(t1);
+reg:      0x001d98 ---   label_9_479                       -wrote s11 = 0x88f
+insn:     0x001d9c ---   label_9_479                       -sw s1, -20(t2);
+insn:     0x001da0 ---   label_9_479                       -sw a1, -4(t1);
+insn:     0x001da4 ---   label_9_479                       -sw a1, -4(t2);
+insn:     0x001da8 ---   label_9_479                       -lw sp, -24(t2);
+reg:      0x001da8 ---   label_9_479                       -wrote sp = 0x1c0
+insn:     0x001dac ---   label_9_479                       -lw a4, 8(t1);
+reg:      0x001dac ---   label_9_479                       -wrote a4 = 0
+insn:     0x001db0 ---   label_9_479                       -sw s1, 12(t1);
+insn:     0x001db4 ---   label_9_479                       -lw s1, -24(t1);
+reg:      0x001db4 ---   label_9_479                       -wrote s1 = 0x1c0
+insn:     0x001db8 ---   label_9_479                       -lw sp, -4(t2);
+reg:      0x001db8 ---   label_9_479                       -wrote sp = 0x88f
+insn:     0x001dbc ---   label_9_479                       -sw t2, -8(t1);
+insn:     0x001dc0 ---   label_9_479                       -sw t2, 24(t1);
+insn:     0x001dc4 ---   label_9_479                       -lw tp, 28(t1);
+reg:      0x001dc4 ---   label_9_479                       -wrote tp = 0
+insn:     0x001dc8 ---   label_9_479                       -sw a0, 0(t1);
+insn:     0x001dcc ---   label_9_479                       -sw s1, -4(t2);
+insn:     0x001dd0 ---   label_9_479                       -sw s1, -24(t2);
+insn:     0x001dd4 ---   label_9_479                       -lw a0, 28(t1);
+reg:      0x001dd4 ---   label_9_479                       -wrote a0 = 0
+insn:     0x001dd8 ---   label_9_479                       -sw t2, 20(t1);
+insn:     0x001ddc ---   label_9_479                       -sw a0, 0(t2);
+insn:     0x001de0 ---   label_9_479                       -sw a1, -20(t1);
+insn:     0x001de4 ---   label_9_479                       -sw s0, -16(t1);
+insn:     0x001de8 ---   label_9_479                       -sw a0, -12(t2);
+insn:     0x001dec ---   label_9_479                       -lw t3, -28(t1);
+reg:      0x001dec ---   label_9_479                       -wrote t3 = 0x800
+insn:     0x001df0 ---   label_9_479                       -sw s1, 4(t1);
+insn:     0x001df4 ---   label_9_479                       -sw a0, 28(t1);
+insn:     0x001df8 ---   label_9_479                       -lw t4, 4(t1);
+reg:      0x001df8 ---   label_9_479                       -wrote t4 = 0x1c0
+insn:     0x001dfc ---   label_9_479                       -lw gp, 16(t1);
+reg:      0x001dfc ---   label_9_479                       -wrote gp = 0x800
+insn:     0x001e00 ---   label_9_479                       -sw a1, 0(t2);
+insn:     0x001e04 ---   label_9_479                       -sw a1, -32(t2);
+insn:     0x001e08 ---   label_9_479                       -sw s1, 20(t1);
+insn:     0x001e0c ---   label_9_479                       -sw s1, -20(t1);
+insn:     0x001e10 ---   label_9_479                       -sw a0, 4(t1);
+insn:     0x001e14 ---   label_9_479                       -sw t2, 0(t2);
+insn:     0x001e18 ---   label_9_479                       -lw s0, 8(t1);
+reg:      0x001e18 ---   label_9_479                       -wrote s0 = 0
+insn:     0x001e1c ---   label_9_479                       -sw s0, -8(t1);
+insn:     0x001e20 ---   label_9_479                       -sw s0, 0(t2);
+insn:     0x001e24 ---   label_9_479                       -lw t5, -32(t1);
+reg:      0x001e24 ---   label_9_479                       -wrote t5 = 0x88f
+insn:     0x001e28 ---   label_9_479                       -lw s8, 28(t1);
+reg:      0x001e28 ---   label_9_479                       -wrote s8 = 0
+insn:     0x001e2c ---   label_9_479                       -sw t2, -8(t2);
+insn:     0x001e30 ---   label_9_479                       -sw a0, 16(t1);
+insn:     0x001e34 ---   label_9_479                       -lw a5, 12(t2);
+reg:      0x001e34 ---   label_9_479                       -wrote a5 = 0x1c0
+insn:     0x001e38 ---   label_9_479                       -sw a0, -12(t1);
+insn:     0x001e3c ---   label_9_479                       -lw sp, -28(t1);
+reg:      0x001e3c ---   label_9_479                       -wrote sp = 0x800
+insn:     0x001e40 ---   label_9_479                       -lw a1, -32(t2);
+reg:      0x001e40 ---   label_9_479                       -wrote a1 = 0x88f
+insn:     0x001e44 ---   label_9_479                       -lw t6, 24(t1);
+reg:      0x001e44 ---   label_9_479                       -wrote t6 = 0x1c0
+insn:     0x001e48 ---   label_9_479                       -lw a7, -8(t2);
+reg:      0x001e48 ---   label_9_479                       -wrote a7 = 0x1c0
+insn:     0x001e4c ---   label_9_479                       -sw s1, 12(t1);
+insn:     0x001e50 ---   label_9_479                       -lw s7, 0(t1);
+reg:      0x001e50 ---   label_9_479                       -wrote s7 = 0
+insn:     0x001e54 ---   label_9_479                       -sw a0, 4(t1);
+insn:     0x001e58 ---   label_9_479                       -sw s0, 12(t1);
+insn:     0x001e5c ---   label_9_479                       -sw a1, 20(t1);
+insn:     0x001e60 ---   label_9_479                       -sw a1, 12(t2);
+insn:     0x001e64 ---   label_9_479                       -sw t2, 8(t2);
+insn:     0x001e68 ---   label_9_479                       -sw a1, 0(t2);
+insn:     0x001e6c ---   label_9_479                       -sw s0, -28(t2);
+insn:     0x001e70 ---   label_9_479                       -sw s1, -32(t2);
+insn:     0x001e74 ---   label_9_479                       -sw s1, -8(t2);
+insn:     0x001e78 ---   label_9_479                       -lw s0, 12(t2);
+reg:      0x001e78 ---   label_9_479                       -wrote s0 = 0x88f
+insn:     0x001e7c ---   label_9_479                       -sw a1, -4(t2);
+insn:     0x001e80 ---   label_9_479                       -lw s11, -4(t2);
+reg:      0x001e80 ---   label_9_479                       -wrote s11 = 0x88f
+insn:     0x001e84 ---   label_9_479                       -sw a1, -28(t2);
+insn:     0x001e88 ---   label_9_479                       -lw t3, 4(t1);
+reg:      0x001e88 ---   label_9_479                       -wrote t3 = 0
+insn:     0x001e8c ---   label_9_479                       -lw a6, 28(t1);
+reg:      0x001e8c ---   label_9_479                       -wrote a6 = 0
+insn:     0x001e90 ---   label_9_479                       -lw a3, 28(t2);
+reg:      0x001e90 ---   label_9_479                       -wrote a3 = 0
+insn:     0x001e94 ---   label_9_479                       -addi t2, t2, 0xffffffec;  // t2 = t2 + 0xffffffec
+reg:      0x001e94 ---   label_9_479                       -wrote t2 = 0x1ac
+insn:     0x001e98 ---   label_9_479                       -andi t2, t2, -16;  // t2 = t2 & 0xfffffff0
+reg:      0x001e98 ---   label_9_479                       -wrote t2 = 0x1a0
+insn:     0x001e9c ---   label_9_479                       -sw s1, -8(t1);
+insn:     0x001ea0 ---   label_9_479                       -sw t2, -4(t2);
+insn:     0x001ea4 ---   label_9_479                       -lw s11, 16(t2);
+reg:      0x001ea4 ---   label_9_479                       -wrote s11 = 0x1c0
+insn:     0x001ea8 ---   label_9_479                       -sw t2, 28(t2);
+insn:     0x001eac ---   label_9_479                       -lw a2, -20(t1);
+reg:      0x001eac ---   label_9_479                       -wrote a2 = 0x1c0
+insn:     0x001eb0 ---   label_9_479                       -sw a1, -4(t1);
+insn:     0x001eb4 ---   label_9_479                       -lw s4, 0(t2);
+reg:      0x001eb4 ---   label_9_479                       -wrote s4 = 0x1c0
+insn:     0x001eb8 ---   label_9_479                       -sw s1, -24(t1);
+insn:     0x001ebc ---   label_9_479                       -lw t4, -4(t1);
+reg:      0x001ebc ---   label_9_479                       -wrote t4 = 0x88f
+insn:     0x001ec0 ---   label_9_479                       -lw s4, -8(t1);
+reg:      0x001ec0 ---   label_9_479                       -wrote s4 = 0x1c0
+insn:     0x001ec4 ---   label_9_479                       -sw s1, 24(t2);
+insn:     0x001ec8 ---   label_9_479                       -lw s5, 4(t2);
+reg:      0x001ec8 ---   label_9_479                       -wrote s5 = 0x88f
+insn:     0x001ecc ---   label_9_479                       -sw s1, 24(t1);
+insn:     0x001ed0 ---   label_9_479                       -sw a0, -4(t1);
+insn:     0x001ed4 ---   label_9_479                       -lw s1, -4(t2);
+reg:      0x001ed4 ---   label_9_479                       -wrote s1 = 0x1a0
+insn:     0x001ed8 ---   label_9_479                       -lw s9, -32(t2);
+reg:      0x001ed8 ---   label_9_479                       -wrote s9 = 0x5f
+insn:     0x001edc ---   label_9_479                       -lw t6, 16(t1);
+reg:      0x001edc ---   label_9_479                       -wrote t6 = 0
+insn:     0x001ee0 ---   label_9_479                       -lw a7, -4(t1);
+reg:      0x001ee0 ---   label_9_479                       -wrote a7 = 0
+insn:     0x001ee4 ---   label_9_479                       -lw a7, 4(t2);
+reg:      0x001ee4 ---   label_9_479                       -wrote a7 = 0x88f
+insn:     0x001ee8 ---   label_9_479                       -lw t0, 16(t2);
+reg:      0x001ee8 ---   label_9_479                       -wrote t0 = 0x1c0
+insn:     0x001eec ---   label_9_479                       -lw s8, -4(t1);
+reg:      0x001eec ---   label_9_479                       -wrote s8 = 0
+insn:     0x001ef0 ---   label_9_479                       -sw a1, 20(t1);
+insn:     0x001ef4 ---   label_9_479                       -sw a1, -12(t1);
+insn:     0x001ef8 ---   label_9_479                       -sw a1, 8(t1);
+insn:     0x001efc ---   label_9_479                       -lw s11, -12(t1);
+reg:      0x001efc ---   label_9_479                       -wrote s11 = 0x88f
+insn:     0x001f00 ---   label_9_479                       -lw tp, -12(t2);
+reg:      0x001f00 ---   label_9_479                       -wrote tp = 0x64
+insn:     0x001f04 ---   label_9_479                       -lw s0, 0(t2);
+reg:      0x001f04 ---   label_9_479                       -wrote s0 = 0x1c0
+insn:     0x001f08 ---   label_9_479                       -lw a5, -24(t2);
+reg:      0x001f08 ---   label_9_479                       -wrote a5 = 0x61
+insn:     0x001f0c ---   label_9_479                       -lw t5, -32(t2);
+reg:      0x001f0c ---   label_9_479                       -wrote t5 = 0x5f
+insn:     0x001f10 ---   label_9_479                       -lw a6, -8(t2);
+reg:      0x001f10 ---   label_9_479                       -wrote a6 = 0x65
+insn:     0x001f14 ---   label_9_479                       -lw t4, -8(t1);
+reg:      0x001f14 ---   label_9_479                       -wrote t4 = 0x1c0
+insn:     0x001f18 ---   label_9_479                       -sw t2, -24(t1);
+insn:     0x001f1c ---   label_9_479                       -lw a6, -24(t1);
+reg:      0x001f1c ---   label_9_479                       -wrote a6 = 0x1a0
+insn:     0x001f20 ---   label_9_479                       -lw tp, 8(t1);
+reg:      0x001f20 ---   label_9_479                       -wrote tp = 0x88f
+insn:     0x001f24 ---   label_9_479                       -or a2, a2, s4;  // a2 = a2 | s4
+reg:      0x001f24 ---   label_9_479                       -wrote a2 = 0x1c0
+insn:     0x001f28 ---   label_9_479                       -lw zero, 12(t2);
+insn:     0x001f2c ---   label_9_479                       -sw s0, 28(t1);
+insn:     0x001f30 ---   label_9_479                       -sw a0, -8(t1);
+insn:     0x001f34 ---   label_9_479                       -lw a4, -28(t2);
+reg:      0x001f34 ---   label_9_479                       -wrote a4 = 0x60
+insn:     0x001f38 ---   label_9_479                       -sw a0, -32(t1);
+insn:     0x001f3c ---   label_9_479                       -sw a1, -24(t2);
+insn:     0x001f40 ---   label_9_479                       -lw s3, -20(t2);
+reg:      0x001f40 ---   label_9_479                       -wrote s3 = 0x62
+insn:     0x001f44 ---   label_9_479                       -lw a5, 0(t1);
+reg:      0x001f44 ---   label_9_479                       -wrote a5 = 0x88f
+insn:     0x001f48 ---   label_9_479                       -lw s4, -4(t1);
+reg:      0x001f48 ---   label_9_479                       -wrote s4 = 0
+insn:     0x001f4c ---   label_9_479                       -sw t2, -20(t2);
+insn:     0x001f50 ---   label_9_479                       -sw t2, 24(t2);
+insn:     0x001f54 ---   label_9_479                       -sw a0, 0(t1);
+insn:     0x001f58 ---   label_9_479                       -sw s1, 24(t2);
+insn:     0x001f5c ---   label_9_479                       -sw s1, 20(t1);
+insn:     0x001f60 ---   label_9_479                       -lw a2, 0(t2);
+reg:      0x001f60 ---   label_9_479                       -wrote a2 = 0
+insn:     0x001f64 ---   label_9_479                       -lw zero, 20(t2);
+insn:     0x001f68 ---   label_9_479                       -lw t3, -8(t1);
+reg:      0x001f68 ---   label_9_479                       -wrote t3 = 0x1a0
+insn:     0x001f6c ---   label_9_479                       -sw t2, 8(t1);
+insn:     0x001f70 ---   label_9_479                       -sw s0, 0(t1);
+insn:     0x001f74 ---   label_9_479                       -lw sp, 8(t2);
+reg:      0x001f74 ---   label_9_479                       -wrote sp = 0x1a0
+insn:     0x001f78 ---   label_9_479                       -sw a1, 16(t2);
+insn:     0x001f7c ---   label_9_479                       -sw s0, 8(t2);
+insn:     0x001f80 ---   label_9_479                       -lw gp, 24(t2);
+reg:      0x001f80 ---   label_9_479                       -wrote gp = 0x1a0
+insn:     0x001f84 ---   label_9_479                       -sw a1, 16(t2);
+insn:     0x001f88 ---   label_9_479                       -xori gp, a7, 4;  // gp = a7 ^ 0x4
+reg:      0x001f88 ---   label_9_479                       -wrote gp = 0x88b
+insn:     0x001f8c ---   label_9_479                       -sw a1, 4(t2);
+insn:     0x001f90 ---   label_9_479                       -lw a2, 28(t1);
+reg:      0x001f90 ---   label_9_479                       -wrote a2 = 0x1c0
+insn:     0x001f94 ---   label_9_479                       -lw a7, -24(t2);
+reg:      0x001f94 ---   label_9_479                       -wrote a7 = 0x88f
+insn:     0x001f98 ---   label_9_479                       -lw t3, 28(t1);
+reg:      0x001f98 ---   label_9_479                       -wrote t3 = 0x1c0
+insn:     0x001f9c ---   label_9_479                       -srai s8, a2, 3;  // s8 = a2 >>> 0x3
+reg:      0x001f9c ---   label_9_479                       -wrote s8 = 0x38
+insn:     0x001fa0 ---   label_9_479                       -sw s0, 8(t1);
+insn:     0x001fa4 ---   label_9_479                       -sw s0, 24(t1);
+insn:     0x001fa8 ---   label_9_479                       -sw t2, -16(t2);
+insn:     0x001fac ---   label_9_479                       -lw a4, 16(t2);
+reg:      0x001fac ---   label_9_479                       -wrote a4 = 0x88f
+insn:     0x001fb0 ---   label_9_479                       -lw t5, -24(t1);
+reg:      0x001fb0 ---   label_9_479                       -wrote t5 = 0x1c0
+insn:     0x001fb4 ---   label_9_479                       -sw s0, -24(t2);
+insn:     0x001fb8 ---   label_9_479                       -lw s7, -28(t2);
+reg:      0x001fb8 ---   label_9_479                       -wrote s7 = 0x60
+insn:     0x001fbc ---   label_9_479                       -sw s0, 12(t2);
+insn:     0x001fc0 ---   label_9_479                       -lw a5, -24(t1);
+reg:      0x001fc0 ---   label_9_479                       -wrote a5 = 0x1c0
+insn:     0x001fc4 ---   label_9_479                       -sw a1, 16(t1);
+insn:     0x001fc8 ---   label_9_479                       -lw s2, -16(t1);
+reg:      0x001fc8 ---   label_9_479                       -wrote s2 = 0x88f
+insn:     0x001fcc ---   label_9_479                       -lw s9, 20(t1);
+reg:      0x001fcc ---   label_9_479                       -wrote s9 = 0x1a0
+insn:     0x001fd0 ---   label_9_479                       -lw a7, 20(t2);
+reg:      0x001fd0 ---   label_9_479                       -wrote a7 = 0x88f
+insn:     0x001fd4 ---   label_9_479                       -sw t2, -12(t1);
+insn:     0x001fd8 ---   label_9_479                       -sw t2, 28(t2);
+insn:     0x001fdc ---   label_9_479                       -sw s0, -16(t1);
+insn:     0x001fe0 ---   label_9_479                       -sw s0, -32(t1);
+insn:     0x001fe4 ---   label_9_479                       -lw s0, -4(t2);
+reg:      0x001fe4 ---   label_9_479                       -wrote s0 = 0x1a0
+insn:     0x001fe8 ---   label_9_479                       -lw a6, 4(t2);
+reg:      0x001fe8 ---   label_9_479                       -wrote a6 = 0x88f
+insn:     0x001fec ---   label_9_479                       -sw a0, 20(t2);
+insn:     0x001ff0 ---   label_9_479                       -lw t6, -20(t2);
+reg:      0x001ff0 ---   label_9_479                       -wrote t6 = 0x1a0
+insn:     0x001ff4 ---   label_9_479                       -sw a1, -32(t1);
+insn:     0x001ff8 ---   label_9_479                       -lw s6, -20(t2);
+reg:      0x001ff8 ---   label_9_479                       -wrote s6 = 0x1a0
+insn:     0x001ffc ---   label_9_479                       -sw s1, 12(t2);
+insn:     0x002000 ---   label_9_479                       -lw a5, 8(t2);
+reg:      0x002000 ---   label_9_479                       -wrote a5 = 0x1c0
+insn:     0x002004 ---   label_9_479                       -lw s3, 12(t2);
+reg:      0x002004 ---   label_9_479                       -wrote s3 = 0x1a0
+insn:     0x002008 ---   label_9_479                       -sw s0, 16(t1);
+insn:     0x00200c ---   label_9_479                       -lw a6, -16(t1);
+reg:      0x00200c ---   label_9_479                       -wrote a6 = 0x1c0
+insn:     0x002010 ---   label_9_479                       -lw a3, 4(t1);
+reg:      0x002010 ---   label_9_479                       -wrote a3 = 0
+insn:     0x002014 ---   label_9_479                       -lw s5, -24(t2);
+reg:      0x002014 ---   label_9_479                       -wrote s5 = 0x1c0
+insn:     0x002018 ---   label_9_479                       -lw ra, 20(t2);
+reg:      0x002018 ---   label_9_479                       -wrote ra = 0
+insn:     0x00201c ---   label_9_479                       -addi t1, t1, 0xfffffff0;  // t1 = t1 + 0xfffffff0
+reg:      0x00201c ---   label_9_479                       -wrote t1 = 0x1b0
+insn:     0x002020 ---   label_9_479                       -andi t1, t1, -16;  // t1 = t1 & 0xfffffff0
+reg:      0x002020 ---   label_9_479                       -wrote t1 = 0x1b0
+insn:     0x002024 ---   label_9_479                       -lw t0, 8(t1);
+reg:      0x002024 ---   label_9_479                       -wrote t0 = 0x1a0
+insn:     0x002028 ---   label_9_479                       -beq s3, a3, 0x8;  // if (s3 == a3) goto 0x8
+insn:     0x00202c ---   label_9_479                       -or t3, s1, tp;  // t3 = s1 | tp
+reg:      0x00202c ---   label_9_479                       -wrote t3 = 0x9af
+insn:     0x002030 ---   label_10_1016                     -lw a1, 24(t1);
+reg:      0x002030 ---   label_10_1016                     -wrote a1 = 0x1c0
+insn:     0x002034 ---   label_10_1016                     -lw a5, 12(t2);
+reg:      0x002034 ---   label_10_1016                     -wrote a5 = 0x1a0
+insn:     0x002038 ---   label_10_1016                     -lw s11, -28(t2);
+reg:      0x002038 ---   label_10_1016                     -wrote s11 = 0x60
+insn:     0x00203c ---   label_10_1016                     -sw s1, -20(t2);
+insn:     0x002040 ---   label_10_1016                     -lw ra, -20(t1);
+reg:      0x002040 ---   label_10_1016                     -wrote ra = 0x1a0
+insn:     0x002044 ---   label_10_1016                     -sw a0, 12(t1);
+insn:     0x002048 ---   label_10_1016                     -lw t6, -24(t1);
+reg:      0x002048 ---   label_10_1016                     -wrote t6 = 0x65
+insn:     0x00204c ---   label_10_1016                     -sw a1, 8(t1);
+insn:     0x002050 ---   label_10_1016                     -sw a1, 4(t1);
+insn:     0x002054 ---   label_10_1016                     -sw t2, 12(t2);
+insn:     0x002058 ---   label_10_1016                     -sw t2, 12(t2);
+insn:     0x00205c ---   label_10_1016                     -sw a1, 12(t2);
+insn:     0x002060 ---   label_10_1016                     -sw a1, -32(t1);
+insn:     0x002064 ---   label_10_1016                     -sw s1, -4(t1);
+insn:     0x002068 ---   label_10_1016                     -sw a1, 8(t1);
+insn:     0x00206c ---   label_10_1016                     -sw t2, 0(t1);
+insn:     0x002070 ---   label_10_1016                     -lw sp, -24(t2);
+reg:      0x002070 ---   label_10_1016                     -wrote sp = 0x1c0
+insn:     0x002074 ---   label_10_1016                     -sw s0, -32(t2);
+insn:     0x002078 ---   label_10_1016                     -addi zero, zero, 0;  // zero = zero + 0
+insn:     0x00207c ---   label_10_1016                     -bgeu s4, s5, 0x38;  // if (s4 >= s5) goto 0x38
+insn:     0x002080 ---   label_10_1016                     -srl gp, t2, t2;  // gp = t2 >> t2
+reg:      0x002080 ---   label_10_1016                     -wrote gp = 0x1a0
+insn:     0x002084 ---   label_10_1016                     -and a1, a5, s0;  // a1 = a5 & s0
+reg:      0x002084 ---   label_10_1016                     -wrote a1 = 0x1a0
+insn:     0x002088 ---   label_10_1016                     -slti s5, ra, 0xa;  // s5 = ra < 0xa
+reg:      0x002088 ---   label_10_1016                     -wrote s5 = 0
+insn:     0x00208c ---   label_10_1016                     -or a6, s5, gp;  // a6 = s5 | gp
+reg:      0x00208c ---   label_10_1016                     -wrote a6 = 0x1a0
+insn:     0x002090 ---   label_10_1016                     -ori t3, t0, 11;  // t3 = t0 | 0xb
+reg:      0x002090 ---   label_10_1016                     -wrote t3 = 0x1ab
+insn:     0x002094 ---   label_10_1016                     -sll t3, s3, s6;  // t3 = s3 << s6
+reg:      0x002094 ---   label_10_1016                     -wrote t3 = 0x1a0
+insn:     0x002098 ---   label_10_1016                     -addi a7, t6, 0x5;  // a7 = t6 + 0x5
+reg:      0x002098 ---   label_10_1016                     -wrote a7 = 0x6a
+insn:     0x00209c ---   label_10_1016                     -add a1, s5, s7;  // a1 = s5 + s7
+reg:      0x00209c ---   label_10_1016                     -wrote a1 = 0x60
+insn:     0x0020a0 ---   label_10_1016                     -ori s6, a2, 14;  // s6 = a2 | 0xe
+reg:      0x0020a0 ---   label_10_1016                     -wrote s6 = 0x1ce
+insn:     0x0020a4 ---   label_10_1016                     -sltiu s3, t2, 0x6;  // s3 = t2 < 0x6
+reg:      0x0020a4 ---   label_10_1016                     -wrote s3 = 0
+insn:     0x0020a8 ---   label_10_1016                     -or t3, s10, tp;  // t3 = s10 | tp
+reg:      0x0020a8 ---   label_10_1016                     -wrote t3 = 0x9ef
+insn:     0x0020ac ---   label_10_1016                     -and s10, t6, zero;  // s10 = t6 & zero
+reg:      0x0020ac ---   label_10_1016                     -wrote s10 = 0
+insn:     0x0020b0 ---   label_10_1016                     -or s6, a4, s8;  // s6 = a4 | s8
+reg:      0x0020b0 ---   label_10_1016                     -wrote s6 = 0x8bf
+insn:     0x0020b4 ---   label_11_111                      -lw a5, 0(t2);
+reg:      0x0020b4 ---   label_11_111                      -wrote a5 = 0x88f
+insn:     0x0020b8 ---   label_11_111                      -sw a0, 4(t1);
+insn:     0x0020bc ---   label_11_111                      -sw s0, 20(t1);
+insn:     0x0020c0 ---   label_11_111                      -lw t0, 20(t2);
+reg:      0x0020c0 ---   label_11_111                      -wrote t0 = 0
+insn:     0x0020c4 ---   label_11_111                      -lw s9, 20(t2);
+reg:      0x0020c4 ---   label_11_111                      -wrote s9 = 0
+insn:     0x0020c8 ---   label_11_111                      -sw s1, -8(t2);
+insn:     0x0020cc ---   label_11_111                      -lw t0, -20(t2);
+reg:      0x0020cc ---   label_11_111                      -wrote t0 = 0x1a0
+insn:     0x0020d0 ---   label_11_111                      -sw a0, -8(t2);
+insn:     0x0020d4 ---   label_11_111                      -sw a0, 0(t1);
+insn:     0x0020d8 ---   label_11_111                      -lw a3, 20(t1);
+reg:      0x0020d8 ---   label_11_111                      -wrote a3 = 0x1a0
+insn:     0x0020dc ---   label_11_111                      -lw s4, 16(t2);
+reg:      0x0020dc ---   label_11_111                      -wrote s4 = 0
+insn:     0x0020e0 ---   label_11_111                      -sw a0, -24(t2);
+insn:     0x0020e4 ---   label_11_111                      -sw a1, -8(t1);
+insn:     0x0020e8 ---   label_11_111                      -sw a0, -16(t1);
+insn:     0x0020ec ---   label_11_111                      -sw a1, 12(t2);
+insn:     0x0020f0 ---   label_11_111                      -sw a0, -32(t2);
+insn:     0x0020f4 ---   label_11_111                      -lw a7, 4(t2);
+reg:      0x0020f4 ---   label_11_111                      -wrote a7 = 0x88f
+insn:     0x0020f8 ---   label_11_111                      -lw tp, -16(t2);
+reg:      0x0020f8 ---   label_11_111                      -wrote tp = 0x1c0
+insn:     0x0020fc ---   label_11_111                      -lw s1, -12(t2);
+reg:      0x0020fc ---   label_11_111                      -wrote s1 = 0x64
+insn:     0x002100 ---   label_11_111                      -lw tp, 28(t2);
+reg:      0x002100 ---   label_11_111                      -wrote tp = 0
+insn:     0x002104 ---   label_11_111                      -sw t2, -32(t1);
+insn:     0x002108 ---   label_11_111                      -sw s1, 16(t1);
+insn:     0x00210c ---   label_11_111                      -lw gp, 24(t2);
+reg:      0x00210c ---   label_11_111                      -wrote gp = 0x1c0
+insn:     0x002110 ---   label_11_111                      -sw s1, -4(t2);
+insn:     0x002114 ---   label_11_111                      -sw s1, 28(t2);
+insn:     0x002118 ---   label_11_111                      -sw t2, 24(t2);
+insn:     0x00211c ---   label_11_111                      -lw s5, 16(t1);
+reg:      0x00211c ---   label_11_111                      -wrote s5 = 0x64
+insn:     0x002120 ---   label_11_111                      -lw a3, -8(t2);
+reg:      0x002120 ---   label_11_111                      -wrote a3 = 0
+insn:     0x002124 ---   label_11_111                      -sw s0, 24(t1);
+insn:     0x002128 ---   label_11_111                      -lw t5, 4(t1);
+reg:      0x002128 ---   label_11_111                      -wrote t5 = 0
+insn:     0x00212c ---   label_11_111                      -sw s1, -16(t1);
+insn:     0x002130 ---   label_11_111                      -lw t6, 8(t2);
+reg:      0x002130 ---   label_11_111                      -wrote t6 = 0x60
+insn:     0x002134 ---   label_11_111                      -sw t2, 0(t2);
+insn:     0x002138 ---   label_11_111                      -sw t2, 24(t2);
+insn:     0x00213c ---   label_11_111                      -sw t2, 4(t2);
+insn:     0x002140 ---   label_11_111                      -lw t4, -8(t1);
+reg:      0x002140 ---   label_11_111                      -wrote t4 = 0x60
+insn:     0x002144 ---   label_11_111                      -lw a0, 20(t1);
+reg:      0x002144 ---   label_11_111                      -wrote a0 = 0x1a0
+insn:     0x002148 ---   label_11_111                      -lw a7, 28(t2);
+reg:      0x002148 ---   label_11_111                      -wrote a7 = 0x64
+insn:     0x00214c ---   label_11_111                      -lw s2, -28(t1);
+reg:      0x00214c ---   label_11_111                      -wrote s2 = 0x64
+insn:     0x002150 ---   label_11_111                      -sw a0, 28(t2);
+insn:     0x002154 ---   label_11_111                      -sw t2, -20(t1);
+insn:     0x002158 ---   label_11_111                      -sw t2, -16(t2);
+insn:     0x00215c ---   label_11_111                      -lw a0, 20(t1);
+reg:      0x00215c ---   label_11_111                      -wrote a0 = 0x1a0
+insn:     0x002160 ---   label_11_111                      -lw s11, -8(t1);
+reg:      0x002160 ---   label_11_111                      -wrote s11 = 0x60
+insn:     0x002164 ---   label_11_111                      -lw t5, 20(t2);
+reg:      0x002164 ---   label_11_111                      -wrote t5 = 0
+insn:     0x002168 ---   label_11_111                      -sw t2, 4(t1);
+insn:     0x00216c ---   label_11_111                      -lw a6, -12(t1);
+reg:      0x00216c ---   label_11_111                      -wrote a6 = 0x1a0
+insn:     0x002170 ---   label_11_111                      -sw t2, -12(t2);
+insn:     0x002174 ---   label_11_111                      -sw t2, -12(t1);
+insn:     0x002178 ---   label_11_111                      -lw s0, 20(t1);
+reg:      0x002178 ---   label_11_111                      -wrote s0 = 0x1a0
+insn:     0x00217c ---   label_11_111                      -lw tp, -16(t1);
+reg:      0x00217c ---   label_11_111                      -wrote tp = 0x1a0
+insn:     0x002180 ---   label_11_111                      -lw gp, -32(t2);
+reg:      0x002180 ---   label_11_111                      -wrote gp = 0
+insn:     0x002184 ---   label_11_111                      -sw a1, 0(t2);
+insn:     0x002188 ---   label_11_111                      -sw a0, 0(t1);
+insn:     0x00218c ---   label_11_111                      -lw a3, 16(t1);
+reg:      0x00218c ---   label_11_111                      -wrote a3 = 0x64
+insn:     0x002190 ---   label_11_111                      -sw a0, -32(t1);
+insn:     0x002194 ---   label_11_111                      -sw s0, 4(t2);
+insn:     0x002198 ---   label_11_111                      -lw gp, 8(t1);
+reg:      0x002198 ---   label_11_111                      -wrote gp = 0x1a0
+insn:     0x00219c ---   label_11_111                      -lw t0, 4(t2);
+reg:      0x00219c ---   label_11_111                      -wrote t0 = 0x1a0
+insn:     0x0021a0 ---   label_11_111                      -lw s0, -8(t2);
+reg:      0x0021a0 ---   label_11_111                      -wrote s0 = 0
+insn:     0x0021a4 ---   label_11_111                      -sw a0, 8(t1);
+insn:     0x0021a8 ---   label_11_111                      -lw s0, -32(t1);
+reg:      0x0021a8 ---   label_11_111                      -wrote s0 = 0x1a0
+insn:     0x0021ac ---   label_11_111                      -sw s0, 8(t2);
+insn:     0x0021b0 ---   label_11_111                      -lw s2, 8(t1);
+reg:      0x0021b0 ---   label_11_111                      -wrote s2 = 0x1a0
+insn:     0x0021b4 ---   label_11_111                      -sw s0, 28(t1);
+insn:     0x0021b8 ---   label_11_111                      -sw a1, 28(t1);
+insn:     0x0021bc ---   label_11_111                      -lw t0, 24(t2);
+reg:      0x0021bc ---   label_11_111                      -wrote t0 = 0x1a0
+insn:     0x0021c0 ---   label_11_111                      -lw s11, -32(t2);
+reg:      0x0021c0 ---   label_11_111                      -wrote s11 = 0
+insn:     0x0021c4 ---   label_11_111                      -sw s1, 28(t2);
+insn:     0x0021c8 ---   label_11_111                      -lw a2, -24(t1);
+reg:      0x0021c8 ---   label_11_111                      -wrote a2 = 0
+insn:     0x0021cc ---   label_11_111                      -sw s0, -16(t2);
+insn:     0x0021d0 ---   label_11_111                      -bltu t5, zero, 0x18;  // if (t5 < zero) goto 0x18
+insn:     0x0021d4 ---   label_11_111                      -sub a6, tp, zero;  // a6 = tp - zero
+reg:      0x0021d4 ---   label_11_111                      -wrote a6 = 0x1a0
+insn:     0x0021d8 ---   label_11_111                      -slli a1, t4, 4;  // a1 = t4 << 0x4
+reg:      0x0021d8 ---   label_11_111                      -wrote a1 = 0x600
+insn:     0x0021dc ---   label_11_111                      -and s3, s5, s9;  // s3 = s5 & s9
+reg:      0x0021dc ---   label_11_111                      -wrote s3 = 0
+insn:     0x0021e0 ---   label_11_111                      -xor s11, t1, t5;  // s11 = t1 ^ t5
+reg:      0x0021e0 ---   label_11_111                      -wrote s11 = 0x1b0
+insn:     0x0021e4 ---   label_11_111                      -sra t4, a5, a2;  // t4 = a5 >>> a2
+reg:      0x0021e4 ---   label_11_111                      -wrote t4 = 0x88f
+insn:     0x0021e8 ---   label_12_979                      -lw s11, 28(t2);
+reg:      0x0021e8 ---   label_12_979                      -wrote s11 = 0x64
+insn:     0x0021ec ---   label_12_979                      -sw a0, -28(t2);
+insn:     0x0021f0 ---   label_12_979                      -lw s11, 16(t1);
+reg:      0x0021f0 ---   label_12_979                      -wrote s11 = 0x64
+insn:     0x0021f4 ---   label_12_979                      -lw tp, -4(t2);
+reg:      0x0021f4 ---   label_12_979                      -wrote tp = 0x1a0
+insn:     0x0021f8 ---   label_12_979                      -lw a3, -16(t1);
+reg:      0x0021f8 ---   label_12_979                      -wrote a3 = 0x60
+insn:     0x0021fc ---   label_12_979                      -lw a5, 0(t1);
+reg:      0x0021fc ---   label_12_979                      -wrote a5 = 0x1a0
+insn:     0x002200 ---   label_12_979                      -lw s11, 16(t2);
+reg:      0x002200 ---   label_12_979                      -wrote s11 = 0x1a0
+insn:     0x002204 ---   label_12_979                      -sw t2, 16(t2);
+insn:     0x002208 ---   label_12_979                      -jal zero, 4;
+branch:   0x002208 ---   label_12_979                      -to 0x220c
+insn:     0x00220c ---   exit                              -addi a7, zero, 0x5d;  // a7 = zero + 0x5d
+reg:      0x00220c ---   exit                              -wrote a7 = 0x5d
+insn:     0x002210 ---   exit                              -ecall;

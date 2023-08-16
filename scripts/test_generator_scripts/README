@@ -1,0 +1,4 @@
+The scripts "create.sh" in each class of tests will create a bunch of random tests of that class.
+cd to each class of folder
+run "./create.sh" -> creates the tests and corresponding testlist .tl 
+copy the test folder to wiscv/tests folder and .tl to wiscv/tests/testlists

@@ -1,0 +1,4 @@
+Simplified Version of LENET with less number of layers for resource constrained FPGAs
+
+This code writes Predicted, Expected digit value at 0x00000f00, 0x00000f04 addresses so that these can be read from FPGA via usb-uart bridge
+
