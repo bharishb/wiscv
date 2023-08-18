@@ -1,4 +1,5 @@
-# wiscv
+# wiscv 
+-Well Intentioned & Systematic Computer in Verilog
 
 RISCV based inorder 5 stage processor + cache design project. 
 FPGA mode is supported too with on the fly programming with various programs via python serial usb interface connected to usb-uart bridge on fpga.
@@ -13,9 +14,14 @@ The project has the following hierarchy
 Each of the above design folders has the following hierarchy. 
 
             1. proc.sv -> Top Level Design Module. Contains instruction, data memory instances and the core. Memory Subsystem for cache are also instantiated.
-            2. core.sv -> Implement the processor design in this file. The submodules of various stages are also populated with various intuitive signal names. New signals can be added or renamed as per the designers design choices
+            2. core.sv -> Implement the processor design in this file. The submodules of various stages are also populated with various intuitive signal names. New signals can be added or renamed as per the designers design choices. The designers can use verilog or system verilog. According point the respective file in tb/riscv.f file. 
+            tb/dut_probes.sv  needs to be updated connecting the corresponding signals from the design(ECALL should be taken from the write back or commit stage). The testbench is designed around ecall as the end of the program. 
             3. mem_system -> This is present in withcache/*/ folders based on type of cache. Implement the respective cache controller in this file.
-  
+            4. .f files can be updated for addition of new modules/file name changes etc
+               tb/riscv.f -> This points to all files for running TB with core alone.
+               tb/riscv_cache.f -> This points to all files for eunning TB with both core + cache mode
+               tb/riscv_cache_standalone.f -> This points to all files for testing cache subsystem standalone.
+               Makefile picks the respective .f file based on the modes selected.
   
 Environment :
           Add RISCV toolchain, Modelsim to your PATH variable. Add the following commands in .bashrc/.bashrc.local
@@ -40,7 +46,11 @@ TB Environment is located in ./tb directory. To run any testcase.
              MEM_MODE=cache CACHE_MODE=direct -> These two arguments together select direct mapped cache
              MEM_MODE=cache CACHE_MODE=assoc -> These two arguments together select associative cache
              The design has to look in */src/core.sv at i_icache_done signal for Instruction Memory, i_dcache_done signal for Data Memory acknowlegments.
- 
+Note : 
+
+     The Memory size can be changed in tb/wiscv_tb.sv NUM_MEM_WORDS parameter set in terms of number of 32 bit words. 
+
+
 Running Cache Standalone (mem_system_randbench Testbench) : 
     
     This testbench writes and reads at random addresses. Looks for data check with reference to a memory model mem_system_ref. Also Looks for cache Hit Latencies
@@ -107,4 +117,30 @@ Only Compile :
 
 Test Generator :
              
-             The  test generator scripts are in scripts/test_generator_scripts folder for various classes of tests. README is also present. Seed etc can be varied to generate more tests if needed. 
+             The  test generator scripts are in scripts/test_generator_scripts folder for various classes of tests. README is also present. Seed etc can be varied to generate more tests if needed.
+
+FPGA Mode :
+
+           The fpga used is Xilinx Arty A7 series. Please Install Xilinx Vivado Free Version. The main feature in our framework is on the fly programming the FPGA with new programs. This is supported using python serial usb interface. A protocol is developed on the uart. This uses usb-uart bridge already present on the FPGA. 
+           Inside the fpga folder, the top module wiscv_wrapper instantiates core developed, uart(provided). The uart is designed for clock frequency of 50MHz and 9600 baud rate(baud_cnt is set to 50*10^6/9600 = 5208). In case of different clock frequency and baud rate please adjust the values in UART_tx.v, UART_rcv.sv in fgpa folder. 
+           The FPGA we used has crystal frequency of 100MHz. So instantiate a clock divider from Vivado clock wizard to generate 50MHz.Or you can use the provided clock divider clk_div.sv. 
+           After Xilinx vivado installation, create a project with all the RTL files within fpga folder and also pipe/src or nopipe/src based on the pipelining design desired. 
+           wiscv_include.vh -> defines needed for FPGA synth
+           arty.xdc  -> Constraints used to connect to LEDs. This needs modification based of Pin/LED description of FPGA
+           (ecall is connected to o_done led. This indicates program has reached the end of execution)
+  Protocol : 
+  
+        wiscv_wrapper transactions are in terms of bytes via uart. 
+        The state machine inside wiscv_wrapper takes in 32 bit address (4 bytes from lsb to msb byte) for a read. 32 bit data (lsb to msb byte) is followed by 32 bit address for a write. The writes and reads are distinguished by the msb byte value. 8'h55 for write, 8'haa for read. The start of execution is triggered by writing 1 at address 0x55800000.  mem_read, mem_write functions in the python script provided already implemented the protocol. The program polls for ecall at 0xaa800000. The number of execution cycles(cycle_count) of the program can be read at address 0xaa840000. 
+        
+  Python Script to Program on the fly 
+  
+    -> scripts/fpga_run_time_code_dump.py
+     uart_port should be pointed to USB COM port FPGA is connected. buard_rate can be changed at ser.baud_rate.
+     mem_write, mem_read functions are present to write/read to/from an address
+     Program can be changed at "with open('./addi.hex', 'rb') as fp". Currently pointed to "addi.hex".
+        1. make compile_only -> To create .hex file
+        2. Change the path/move the .hex file to this script area. 
+        3. Add mem read/write prints at addresses needed.
+        4. python fpga_run_time_code_dump.py 
+     This can be used in Jupiter notebook also. This allows on the fly reading and writing at any addresses giving the feel of a debugger.
