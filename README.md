@@ -1,3 +1,4 @@
+# Vertical Research Group. https://research.cs.wisc.edu/vertical/wiki/
 # wiscv 
 -Well Intentioned & Systematic Computer in Verilog
 
